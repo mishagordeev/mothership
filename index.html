@@ -20,7 +20,6 @@
 
     }
     .content {
-        max-width: 800px;
         margin: 0 auto;
         padding: 15px 0 50px 0;
     }
@@ -45,7 +44,9 @@
     header {
         width: auto;
         background-color: black;
-        padding: 15px 0;      
+        color: white;
+        padding: 1em 0;  
+        z-index: 1;     
     }
     footer {
         width: auto;
@@ -81,27 +82,94 @@
     h2 {
         font-family: monospace; 
         margin-top: 1.5em;  
-        margin-bottom: 1em;        
+        margin-bottom: 2em;        
     }
     p {
         font-family: monospace;   
         margin-block-start: 0px;
         margin-block-end: 0px;     
     }
+    .sandwich {
+        width: 2em;
+        height: 1em;
+        background-color: white;
+        margin: 1em 0;
+    }
+    .menu_button {
+        position: fixed;
+        margin: 1em;
+    }
     @media screen and (max-width : 1024px) {
         nav {
             display: none;
         }
+        header {
+            width: 100%;
+            font-size: 125%;
+            height: 145px;
+            position: relative;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+        }
         article {
             margin-left: 0px;
+            margin: 0 2em;
+        }
+        .content {
+            width: 100%;
+            margin: 0;
+        }
+        body {
+            font-size: 125%;
+        }
+        .logo {
+            padding-top: 1em;
+            width: 600px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .title {
+            padding-top: 100px;
+        }
+        .header_container {
+            padding-left: 1em;
+            padding-right: 1em;
+            margin: auto;
+        }
+        .button_container {
+            right: 40px;
+            top: 75px;
+            position: absolute;
+            
+        }
+        .sandwich_button {
+            width: 150%;
+            vertical-align: middle;
+        }
+        .title_container {
+            padding-top: auto;
+            padding-bottom: 1em;
         }
     }
 </style>
 <header>
-    <div>
-        <img class="logo" src="logo.png">
+    <div class="header_container">
+
+        <div class="title_container">
+            <img class="logo" src="https://i.gyazo.com/08d12ed4b60d5630e66262d07ed10381.png">
         </img>  
         <h1 class="title">РУКОВОДСТВО ПО ВЫЖИВАНИЮ</h1>  
+        </div>
+        <div class="button_container">
+            <img class="sandwich_button" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Hamburger_icon_white.svg" >
+        </div>
     </div>
 </header>
 <body>
@@ -170,7 +238,7 @@
             <p>
                 На самом деле создать персонажа можно следуя шагам на <b>листе персонажа</b>, но если тебе не хватает информации или лист персонажа кажется слишком запутанным, вот что нужно сделать:
             </p>
-            <h2>1. Брось 6d10 для каждого параметра</h2>
+            <h1>1. Брось 6d10 для каждого параметра</h1>
             <p>
                 В <b>Mothership</b> для всего используется десятигранный кубик (d10), поэтому возьми целую горсть. Тебе нужно бросить 6d10 для каждого параметра по порядку сначала <b>сила</b>, потом <b>скорость</b>, <b>интеллект</b> и <b>бой</b>. 30 – среднее значение, но сейчас не зацикливайся на цифрах.
             </p>
