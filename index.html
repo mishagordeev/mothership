@@ -2,6 +2,20 @@
 <title>Mothership</title>
 <head>
     <meta charset="utf-8">
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+            var y = document.getElementById("content");
+            y.style.display = "block";
+          } else {
+            x.style.display = "block";
+            var y = document.getElementById("content");
+            y.style.display = "none";
+          }
+        }
+    </script>
 </head>
 <style>
     a:link {
@@ -102,6 +116,7 @@
     @media screen and (max-width : 1024px) {
         nav {
             display: none;
+            width: 100%
         }
         header {
             width: 100%;
@@ -168,13 +183,13 @@
         <h1 class="title">РУКОВОДСТВО ПО ВЫЖИВАНИЮ</h1>  
         </div>
         <div class="button_container">
-            <img class="sandwich_button" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Hamburger_icon_white.svg" >
+            <img onclick="myFunction()" class="sandwich_button" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Hamburger_icon_white.svg" >
         </div>
     </div>
 </header>
 <body>
     <section>
-        <nav>
+        <nav id="myLinks">
             <div style="padding: 15px 15px 0 15px;">
                 <p>Создание персонажа</p>
                 <p><a href="">› Основные правила</a></p>
