@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <script src='header_buttons_click.js'></script>
+    <script type="module" src="./menu.js">
+        import {menu} from './menu.js';
+        let wrapper = document.getElementById("wrapper");
+        wrapper.innerHTML = menu;
+    </script>
 </head>
 <body>
     <div id="header" class="header">
@@ -16,61 +21,7 @@
             </div>
         </div>    
     </div>  
-    <div class="wrapper">
-        <div id="menu" class="menu">
-            <p>› <a href=""><b>Создание персонажа</b></a></p>
-            <p>› <a href=""><b>Основные правила</b></a></p>
-            <p>&emsp;» <a href="">Игровые кости</a></p>
-            <p>&emsp;» <a href="">Параметры и проверки</a></p>
-            <p>&emsp;» <a href="">Преимущество и помеха</a></p>
-            <p>&emsp;»  <a href="">Критический успех и критическая неудача</a></p>
-            <p>&emsp;» <a href="">Состязание</a></p>
-            <p>› <a href=""><b>Навыки</b></a></p>
-            <p>› <a href=""><b>Испытания</b></a></p>
-            <p>› <a href=""><b>Выживание</b></a></p>
-            <p>&emsp;» <a href="">Кризис</a></p>
-            <p>&emsp;» <a href="">Еда и вода</a></p>
-            <p>&emsp;» <a href="">Кислород</a></p>
-            <p>&emsp;» <a href="">Зарабатывание кредитов</a></p>
-            <p>› <a href=""><b>Бой</b></a></p>
-            <p>&emsp;» <a href="">Врасплох</a></p>
-            <p>&emsp;» <a href="">Кто ходит первым?</a></p>
-            <p>&emsp;» <a href="">Как долго идёт один ход?</a></p>
-            <p>&emsp;» <a href="">Что я могу делать в свой ход?</a></p>
-            <p>&emsp;» <a href="">Как мне атаковать?</a></p>
-            <p>&emsp;» <a href="">Я получаю бонус от укрытия?</a></p>
-            <p>&emsp;» <a href="">Как далеко я могу двигаться?</a></p>
-            <p>&emsp;» <a href="">Попадания</a></p>
-            <p>&emsp;» <a href="">Урон</a></p>
-            <p>&emsp;» <a href="">Как я могу лечиться?</a></p>
-            <p>&emsp;» <a href="">Потеря сознания и смерть</a></p>
-            <p>› <a href=""><b>Оружие</b></a></p>
-            <p>&emsp;» <a href="">Использование</a></p>
-            <p>&emsp;» <a href="">Боеприпасы</a></p>
-            <p>&emsp;» <a href="">Дальность</a></p>
-            <p>&emsp;» <a href="">Прицеливание</a></p>
-            <p>&emsp;» <a href="">Перезарядка</a></p>
-            <p>&emsp;» <a href="">Автоматическое оружие</a></p>
-            <p>&emsp;» <a href="">Дополнительные свойства</a></p>
-            <p>&emsp;» <a href="">Список оружия</a></p>
-            <p>› <a href=""><b>Броня</b></a></p>
-            <p>› <a href=""><b>Предметы</b></a></p>
-            <p>&emsp;» <a href="">Начальные наборы и кредиты</a></p>
-            <p>&emsp;» <a href="">Привыкание</a></p>
-            <p>› <a href=""><b>Безделушки</b></a></p>
-            <p>› <a href=""><b>Нашивки</b></a></p>
-            <p>› <a href=""><b>Стресс</b></a></p>
-            <p>&emsp;» <a href="">Как я получаю стресс?</a></p>
-            <p>&emsp;» <a href="">Как я справляюсь со стрессом?</a></p>
-            <p>› <a href=""><b>Паника и решимость</b></a></p>
-            <p>&emsp;» <a href="">Что такое проверка паники?</a></p>
-            <p>&emsp;» <a href="">Когда мне выполнять проверку паники?</a></p>
-            <p>&emsp;» <a href="">Решимость</a></p>
-            <p>› <a href=""><b>Опыт</b></a></p>
-            <p>› <a href=""><b>Получение уровней</b></a></p>
-            <br>
-            <p><a href=""><b>Лист персонажа</b></a></p>
-        </div>
+    <div class="wrapper" id="wrapper">
         <div id="content_container" class="content_container">
             <div id="content" class="content">
                 <h1>Создание персонажа</h1>
