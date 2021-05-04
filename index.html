@@ -2,26 +2,21 @@
 <head>
     <title>Mothership Руководство по выживанию</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <script src='header_buttons_click.js'></script>
-    <script type="module" src="./menu.js">
-        import {menu} from './menu.js';
-        let wrapper = document.getElementById("wrapper");
-        wrapper.innerHTML = menu;
-    </script>
+    <link rel="stylesheet" href="./style.css">
+    <script src='./header_buttons_click.js'></script>
 </head>
 <body>
     <div id="header" class="header">
         <div>
             <img class="logo" src="logo.png"></img>  
             <div onclick="headerButtonsClick()" class="menu_button" id="menu_button">
-
             </div>
             <div onclick="headerButtonsClick()" class="close_button" id="close_button">
             </div>
         </div>    
     </div>  
     <div class="wrapper" id="wrapper">
+        <script src='./menu.js'></script>
         <div id="content_container" class="content_container">
             <div id="content" class="content">
                 <h1>Создание персонажа</h1>

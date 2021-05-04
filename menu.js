@@ -1,4 +1,4 @@
-export let menu = "<div id='menu' class='menu'>" +
+let menu = "<div id='menu' class='menu'>" +
 "<p>› <a href='index.html'><b>Создание персонажа</b></a></p>" +
 "<p>› <a href=''><b>Основные правила</b></a></p>" +
 "<p>&emsp;» <a href=''>Игровые кости</a></p>" +
@@ -52,3 +52,5 @@ export let menu = "<div id='menu' class='menu'>" +
 "<br>" +
 "<p><a href=''><b>Лист персонажа</b></a></p>" +
 "</div>"
+let wrapper = document.getElementById("wrapper");
+wrapper.innerHTML = menu;
