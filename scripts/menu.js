@@ -1,12 +1,12 @@
 let menu = "<div id='menu' class='menu'>" +
-"<p>› <a href='index.html'><b>Создание персонажа</b></a></p>" +
+"<p>› <a href='./index.html'><b>Создание персонажа</b></a></p>" +
 "<p>› <a href=''><b>Основные правила</b></a></p>" +
 "<p>&emsp;» <a href=''>Игровые кости</a></p>" +
 "<p>&emsp;» <a href=''>Параметры и проверки</a></p>" +
 "<p>&emsp;» <a href=''>Преимущество и помеха</a></p>" +
 "<p>&emsp;»  <a href=''>Критический успех и критическая неудача</a></p>" +
 "<p>&emsp;» <a href=''>Состязание</a></p>" +
-"<p>› <a href='skills.html'><b>Навыки</b></a></p>" +
+"<p>› <a href='./skills.html'><b>Навыки</b></a></p>" +
 "<p>› <a href=''><b>Испытания</b></a></p>" +
 "<p>› <a href='./survival.html'><b>Выживание</b></a></p>" +
 "<p>&emsp;» <a href=''>Кризис</a></p>" +
@@ -32,7 +32,7 @@ let menu = "<div id='menu' class='menu'>" +
 "<p>&emsp;» <a href='./weapons.html#reloading'>Перезарядка</a></p>" +
 "<p>&emsp;» <a href='./weapons.html#automatic'>Автоматическое оружие</a></p>" +
 "<p>&emsp;» <a href='./weapons.html#abilities'>Дополнительные свойства</a></p>" +
-"<p>&emsp;» <a href=''>Список оружия</a></p>" +
+"<p>&emsp;» <a href='./weapon-list.html'>Список оружия</a></p>" +
 "<p>› <a href=''><b>Броня</b></a></p>" +
 "<p>› <a href=''><b>Предметы</b></a></p>" +
 "<p>&emsp;» <a href=''>Начальные наборы и кредиты</a></p>" +
