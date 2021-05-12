@@ -1,6 +1,6 @@
 let menu = "<div id='menu' class='menu'>" +
 "<p>› <a href='./index.html'><b>Создание персонажа</b></a></p>" +
-"<p>› <a href=''><b>Основные правила</b></a></p>" +
+"<p>› <a href='./basic-rules.html'><b>Основные правила</b></a></p>" +
 "<p>&emsp;» <a href=''>Игровые кости</a></p>" +
 "<p>&emsp;» <a href=''>Параметры и проверки</a></p>" +
 "<p>&emsp;» <a href=''>Преимущество и помеха</a></p>" +
