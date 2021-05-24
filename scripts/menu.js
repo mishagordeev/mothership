@@ -11,7 +11,7 @@ let menu = "<div id='menu' class='menu'>" +
 "<p>› <a href=''><b>Безделушки</b></a></p>" +
 "<p>› <a href=''><b>Нашивки</b></a></p>" +
 "<p>› <a href='./stress.html'><b>Стресс</b></a></p>" +
-"<p>› <a href=''><b>Паника и решимость</b></a></p>" +
+"<p>› <a href='./panic.html'><b>Паника и решимость</b></a></p>" +
 "<p>› <a href=''><b>Опыт</b></a></p>" +
 "<p>› <a href=''><b>Получение уровней</b></a></p>" +
 "<br>" +
