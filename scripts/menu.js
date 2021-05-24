@@ -7,7 +7,7 @@ let menu = "<div id='menu' class='menu'>" +
 "<p>› <a href='./combat.html'><b>Бой</b></a></p>" +
 "<p>› <a href='./weapons.html'><b>Оружие</b></a></p>" +
 "<p>› <a href='./armor.html'><b>Броня</b></a></p>" +
-"<p>› <a href=''><b>Предметы</b></a></p>" +
+"<p>› <a href='./equipment.html'><b>Предметы</b></a></p>" +
 "<p>› <a href=''><b>Безделушки</b></a></p>" +
 "<p>› <a href=''><b>Нашивки</b></a></p>" +
 "<p>› <a href='./stress.html'><b>Стресс</b></a></p>" +
