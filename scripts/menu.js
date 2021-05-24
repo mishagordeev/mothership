@@ -7,7 +7,7 @@ let menu = "<div id='menu' class='menu'>" +
 "<p>&emsp;»  <a href=''>Критический успех и критическая неудача</a></p>" +
 "<p>&emsp;» <a href=''>Состязание</a></p>" +
 "<p>› <a href='./skills.html'><b>Навыки</b></a></p>" +
-"<p>› <a href=''><b>Испытания</b></a></p>" +
+"<p>› <a href='./saves.html'><b>Испытания</b></a></p>" +
 "<p>› <a href='./survival.html'><b>Выживание</b></a></p>" +
 "<p>&emsp;» <a href=''>Кризис</a></p>" +
 "<p>&emsp;» <a href=''>Еда и вода</a></p>" +
