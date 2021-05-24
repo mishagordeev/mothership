@@ -6,7 +6,7 @@ let menu = "<div id='menu' class='menu'>" +
 "<p>› <a href='./survival.html'><b>Выживание</b></a></p>" +
 "<p>› <a href='./combat.html'><b>Бой</b></a></p>" +
 "<p>› <a href='./weapons.html'><b>Оружие</b></a></p>" +
-"<p>› <a href=''><b>Броня</b></a></p>" +
+"<p>› <a href='./armor.html'><b>Броня</b></a></p>" +
 "<p>› <a href=''><b>Предметы</b></a></p>" +
 "<p>› <a href=''><b>Безделушки</b></a></p>" +
 "<p>› <a href=''><b>Нашивки</b></a></p>" +
