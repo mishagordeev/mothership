@@ -62,9 +62,9 @@
         }
         .menu {
             display: block;
-            padding: 1em;
+            padding: 1.5em;
             float: left;
-            width: 320px;
+            width: 250px;
             background-color: gainsboro;  
             color: black;  
             position: absolute;
