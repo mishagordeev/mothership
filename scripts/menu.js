@@ -14,7 +14,7 @@ let menu = "<div id='menu' class='menu'>" +
 "<p>› <a href='./panic.html'><b>Паника и решимость</b></a></p>" +
 "<p>› <a href='./experience.html'><b>Опыт и уровни</b></a></p>" +
 "<br>" +
-"<p><a href=''><b>Лист персонажа</b></a></p>" +
+"<p><a href='./files/Mothership_Character_Sheet_Rus_v1.3.pdf' target='_blank'><b>Лист персонажа</b></a></p>" +
 "</div>"
 let wrapper = document.getElementById("wrapper");
 wrapper.innerHTML = menu;
