@@ -1,5 +1,5 @@
 let menu = "<div id='menu' class='menu'>" +
-"<p><a href='./index.html'><b>Создание персонажа »</b></a></p>" +
+"<p><a href='./'><b>Создание персонажа »</b></a></p>" +
 "<p><a href='./basic-rules.html'><b>Основные правила »</b></a></p>" +
 "<p><a href='./skills.html'><b>Навыки »</b></a></p>" +
 "<p><a href='./saves.html'><b>Испытания »</b></a></p>" +
@@ -14,7 +14,7 @@ let menu = "<div id='menu' class='menu'>" +
 "<p><a href='./panic.html'><b>Паника и решимость »</b></a></p>" +
 "<p><a href='./experience.html'><b>Опыт и уровни »</b></a></p>" +
 "<br>" +
-"<p><a href='./files/Mothership_Character_Sheet_Rus_v1.3.pdf' target='_blank'><b>Лист персонажа</b></a></p>" +
+"<p><a href='./files/Mothership_Character_Sheet_Rus_v1.3.pdf' target='_blank'><b>Лист персонажа ↓</b></a></p>" +
 "</div>"
 let wrapper = document.getElementById("wrapper");
 wrapper.innerHTML = menu;
