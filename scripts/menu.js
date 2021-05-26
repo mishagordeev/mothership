@@ -8,7 +8,7 @@ let menu = "<div id='menu' class='menu'>" +
 "<p><a href='./weapons.html'><b>Оружие »</b></a></p>" +
 "<p><a href='./armor.html'><b>Броня »</b></a></p>" +
 "<p><a href='./equipment.html'><b>Предметы »</b></a></p>" +
-"<!-- <p><a href=''><b>Безделушки</b></a></p> -->" +
+"<p><a href='./trinkets.html'><b>Безделушки »</b></a></p>" +
 "<!-- <p>› <a href=''><b>Нашивки</b></a></p> -->" +
 "<p><a href='./stress.html'><b>Стресс »</b></a></p>" +
 "<p><a href='./panic.html'><b>Паника и решимость »</b></a></p>" +
