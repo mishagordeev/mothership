@@ -7,11 +7,14 @@ a:link {
     text-decoration: none;
     font-weight: bold;
 }
-a::after {
-    content: " »";
+a.internal::after {
+    content: "🡺";
 }
-.download::after {
-    content: " ↓"
+a.download::after {
+    content: "🡻"
+}
+a.external::after {
+    content: "🡽";
 }
 a:visited {
     color: black;
