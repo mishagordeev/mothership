@@ -60,7 +60,7 @@ table th {
 
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1125px) {
     h1 {
         margin-block-start: 0;
     }
@@ -117,7 +117,7 @@ table th {
     }
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 1125px) {
     .menu {
         font-size: 1.5rem;
         padding-top: 7rem;
