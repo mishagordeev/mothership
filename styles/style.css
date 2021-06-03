@@ -118,6 +118,14 @@ table th {
 }
 
 @media screen and (max-width : 1125px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    .wrapper {
+        flex-grow: 1;
+    }
     .menu {
         font-size: 1.5rem;
         padding-top: 7rem;
@@ -167,10 +175,11 @@ table th {
         margin: auto;         
     }
     .footer {
-        clear: both;
+        /* clear: both; */
         background-color: black;      
         color: white;
         padding: 1rem;
+        flex-shrink: 0;
     }
     a:hover {
         background-color: black;
