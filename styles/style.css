@@ -163,16 +163,19 @@ table th {
     .logo_container {
         margin: auto;
         padding: 0;
+        height: 100%;
     }
     .logo {
         height: 2rem;
     }
     .menu_button {
         margin: auto;
+        height: 1rem;
     }
     .close_button {
         display: none;
-        margin: auto;         
+        margin: auto;  
+        height: 1rem;     
     }
     .footer {
         /* clear: both; */
