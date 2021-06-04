@@ -9,13 +9,13 @@ a:link {
     white-space: nowrap;
 }
 a.internal::after {
-    content: "🡺";
+    content: "";
 }
 a.download::after {
-    content: "🡻"
+    content: ""
 }
 a.external::after {
-    content: "🡽";
+    content: "";
 }
 a:visited {
     color: black;
@@ -46,7 +46,15 @@ table {
 table td, table th {
     border: 1px solid #ddd;
     padding: 8px;
-  }
+}
+
+.list p {
+    text-indent: 1rem;
+}
+
+.list p::before {
+    content: "› ";
+}
   
 table tr:nth-child(even){background-color: #f2f2f2;}
   
@@ -127,8 +135,7 @@ table th {
         flex-grow: 1;
     }
     .menu {
-        font-size: 1.5rem;
-        padding-top: 7rem;
+        padding-top: 4.5rem;
         display: none;
         overflow: auto;
         padding-left: 1rem;
@@ -137,6 +144,15 @@ table th {
         margin: 0;
         width: auto;
     }
+
+    .menu .list {
+        font-size: 1.25rem;
+    }
+
+    .menu a:link {
+        font-weight: normal;
+    }
+
     .content_container {
         padding-top: 4.5rem;
         padding-left: 1rem;
