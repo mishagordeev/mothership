@@ -49,7 +49,7 @@ table td, table th {
 }
 
 .list p {
-    text-indent: 1rem;
+    text-indent: 0.5rem;
 }
 
 .list p::before {
@@ -74,7 +74,8 @@ table th {
     }
     .content_container {
         margin-left: 300px;
-        padding-bottom: 5em; 
+        padding-bottom: 5rem; 
+        padding-top: 6rem;
         height: 100%;
     }
     .content {
@@ -88,34 +89,35 @@ table th {
     .menu {
         display: block;
         padding: 1.5em;
+        padding-bottom: 9rem;
         float: left;
         width: 250px;
-        background-color: gainsboro;  
+        background-color: #ddd;  
         color: black;  
-        position: absolute;
         height: 100%;
-        box-sizing: border-box;
-    }
-    body {
-        box-sizing: border-box;
+        position: fixed;
+        margin-top: 5rem;
+        overflow: auto;
     }
     .header {
-        padding: 1.5em;
-        width: auto;
+        padding: 1em;
+        width: 100%;
         background-color: black;
         color: white;  
-
+        position: fixed;
+        z-index: 999;
     }
     .footer {
         clear: both;
         background-color: black;      
         color: white;
         padding: 1em;
+        z-index: 999;
+        margin-left: 250px;
     }
     .logo {
-        width: 500px;
+        height: 3rem;
         display: block;
-        /* margin: 0 auto;    */
     }
     .menu_button {
         display: none;
