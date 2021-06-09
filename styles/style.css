@@ -5,7 +5,7 @@
 a:link {
     color: black;
     text-decoration: none;
-    font-weight: bold;
+    /* font-weight: bold; */
     white-space: nowrap;
 }
 a.internal::after {
@@ -142,13 +142,10 @@ table th {
         overflow: auto;
         padding-left: 1rem;
         padding-right: 1rem;
-        padding-bottom: 7rem;
+        padding-bottom: 4rem;
         margin: 0;
         width: auto;
-    }
-
-    .menu .list {
-        font-size: 1.25rem;
+        font-size: 115%;
     }
 
     .menu a:link {

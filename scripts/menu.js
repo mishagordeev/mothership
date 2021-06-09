@@ -1,5 +1,5 @@
 let menu = "<div id='menu' class='menu'>" +
-"<h2>Руководство по выживанию</h2>" +
+"<h3>Руководство по выживанию</h3>" +
 "<div class='list'>" + 
 "<p><a class='internal' href='./'>Создание персонажа</a></p>" +
 "<p><a class='internal' href='./basic-rules.html'>Основные правила</a></p>" +
@@ -16,8 +16,7 @@ let menu = "<div id='menu' class='menu'>" +
 "<p><a class='internal' href='./panic.html'>Паника и решимость</a></p>" +
 "<p><a class='internal' href='./experience.html'>Опыт и уровни</a></p>" +
 "</div>" +
-"<br>" +
-"<h2>Дополнительные материалы</h2>" +
+"<h3>Дополнительные материалы</h3>" +
 "<div class='list'>" + 
 "<p><a class='download' href='./files/Mothership_Character_Sheet_Rus_v1.3.pdf' target='_blank'>Лист персонажа</a></p>" +
 "</div>" +
