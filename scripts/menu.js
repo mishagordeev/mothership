@@ -18,7 +18,7 @@ let menu = "<div id='menu' class='menu'>" +
 "</div>" +
 "<h3>Дополнительные материалы</h3>" +
 "<div class='list'>" + 
-"<p><a class='download' href='./files/Mothership_Character_Sheet_Rus_v1.3.pdf' target='_blank'>Лист персонажа</a></p>" +
+"<p><a class='download' href='./files/Mothership_Character_Sheet_Rus_v1.4.pdf' target='_blank'>Лист персонажа</a></p>" +
 "</div>" +
 "</div>"
 let wrapper = document.getElementById("wrapper");
