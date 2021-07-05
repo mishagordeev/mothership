@@ -113,9 +113,9 @@ table th {
         height: 100%;
     }
     .content {
-        padding: 2em;
+        padding: 2em 0;
         margin: 0 auto;
-        width: 700px;
+        width: 800px;
     }
     .wrapper {
         position: relative;
