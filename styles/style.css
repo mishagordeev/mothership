@@ -69,6 +69,19 @@ hr {
   height: 1px;
   width: 100px;
 }
+
+ul {
+    list-style: none;
+    padding-inline-start: 1.5rem;
+}
+
+li {
+    text-indent: -0.5rem;
+}
+
+li:before {
+    content: "›"; 
+}
   
 table tr:nth-child(even){background-color: #f2f2f2;}
   
