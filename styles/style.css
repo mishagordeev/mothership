@@ -83,7 +83,7 @@ li:before {
     content: "›"; 
 }
   
-table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:nth-child(odd){background-color: #f2f2f2;}
   
 table th {
     padding-top: 12px;
