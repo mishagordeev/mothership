@@ -55,6 +55,20 @@ table td, table th {
 .list p::before {
     content: "› ";
 }
+
+.footnotes {
+  font-size: 0.9rem;
+}
+.footnotes p {
+  margin-bottom: 1rem;
+}
+hr {
+  border: none;
+  background-color: black;
+  color: black;
+  height: 1px;
+  width: 100px;
+}
   
 table tr:nth-child(even){background-color: #f2f2f2;}
   
