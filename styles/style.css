@@ -75,11 +75,11 @@ ul {
     padding-inline-start: 1.5rem;
 }
 
-li {
+ul li {
     text-indent: -0.5rem;
 }
 
-li:before {
+ul li:before {
     content: "›"; 
 }
   
