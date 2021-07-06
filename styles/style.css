@@ -163,6 +163,14 @@ table th {
     .close_button {
         display: none;
     }
+    
+    .desktop_table {
+        display: block;
+    }
+
+    .mobile_table {
+        display: none;
+    }
 }
 
 @media screen and (max-width : 1125px) {
@@ -240,5 +248,13 @@ table th {
     a:hover {
         background-color: black;
         color: white;
+    }
+
+    .desktop_table {
+        display: none;
+    }
+
+    .mobile_table {
+        display: block;
     }
 }
