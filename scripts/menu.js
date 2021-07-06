@@ -12,6 +12,7 @@ let menu = "<div id='menu' class='menu'>" +
 "<p><a class='internal' href='./equipment.html'>Предметы</a></p>" +
 "<p><a class='internal' href='./trinkets.html'>Безделушки</a></p>" +
 "<p><a class='internal' href='./patches.html'>Нашивки</a></p>" +
+"<p><a class='internal' href='./mercenaries.html'>Наёмники</a></p>" +
 "<p><a class='internal' href='./stress.html'>Стресс</a></p>" +
 "<p><a class='internal' href='./panic.html'>Паника и решимость</a></p>" +
 "<p><a class='internal' href='./experience.html'>Опыт и уровни</a></p>" +
@@ -19,6 +20,7 @@ let menu = "<div id='menu' class='menu'>" +
 "<h3>Дополнительные материалы</h3>" +
 "<div class='list'>" + 
 "<p><a class='download' href='./files/Mothership_Character_Sheet_Rus_v1.4.pdf' target='_blank'>Лист персонажа</a></p>" +
+"<p><a class='download' href='./files/Mothership_Mercenaries_Sheet_Ru_v1.0.pdf' target='_blank'>Листы наёмников</a></p>" +
 "</div>" +
 "</div>"
 let wrapper = document.getElementById("wrapper");
