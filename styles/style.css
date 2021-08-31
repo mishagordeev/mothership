@@ -22,7 +22,6 @@
 a:link {
     color: black;
     text-decoration: none;
-    /* font-weight: bold; */
     white-space: nowrap;
 }
 a.internal::after {
@@ -61,7 +60,7 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
-  
+
 table td, table th {
     border: 1px solid #ddd;
     padding: 8px;
@@ -76,17 +75,17 @@ table td, table th {
 }
 
 .footnotes {
-  font-size: 0.9rem;
+    font-size: 0.9rem;
 }
 .footnotes p {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 hr {
-  border: none;
-  background-color: black;
-  color: black;
-  height: 1px;
-  width: 100px;
+    border: none;
+    background-color: black;
+    color: black;
+    height: 1px;
+    width: 100px;
 }
 
 ul {
@@ -101,9 +100,9 @@ ul li {
 ul li:before {
     content: "›"; 
 }
-  
+    
 table tr:nth-child(odd){background-color: #f2f2f2;}
-  
+    
 table th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -138,7 +137,7 @@ table th {
     }
     .menu {
         display: block;
-        padding: 1.5em;
+        padding: 1.5rem;
         padding-bottom: 9rem;
         float: left;
         width: 250px;
