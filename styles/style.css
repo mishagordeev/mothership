@@ -24,14 +24,8 @@ a:link {
     text-decoration: none;
     white-space: nowrap;
 }
-a.internal::after {
-    content: "";
-}
-a.download::after {
-    content: ""
-}
-a.external::after {
-    content: "";
+a.external {
+    text-decoration: underline;
 }
 a:visited {
     color: black;
