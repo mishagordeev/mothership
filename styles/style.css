@@ -89,6 +89,7 @@ ul {
 
 ul li {
     text-indent: -0.5rem;
+    padding-bottom: 0.20rem;
 }
 
 ul li:before {
