@@ -17,6 +17,7 @@ let menu = "<div id='menu' class='menu'>" +
 "<p><a class='internal' href='./panic.html'>Паника и решимость</a></p>" +
 "<p><a class='internal' href='./space-travel.html'>Путешествия в космосе</a></p>" +
 "<p><a class='internal' href='./ship-design.html'>Проектирование корабля</a></p>" +
+"<p><a class='internal' href='./ship-combat.html'>Космические сражения</a></p>" +
 "<p><a class='internal' href='./experience.html'>Опыт и уровни</a></p>" +
 "</div>" +
 "<h3>Дополнительные материалы</h3>" +
