@@ -19,6 +19,12 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Thin.ttf);
+    /* font-weight: bold; */
+}
+
 a:link {
     color: black;
     text-decoration: none;
@@ -111,6 +117,14 @@ table th {
     font-family: 'Montserrat';
     font-size: 3rem;
 }
+.sublogo {
+    display: block;
+    font-family: 'Roboto';
+    font-size: 2.7rem;
+    padding-top: 0.3rem;
+    padding-left: 1rem;
+    opacity: 0.5
+}
 
 @media screen and (min-width: 1125px) {
     h1 {
@@ -142,7 +156,13 @@ table th {
         position: fixed;
         margin-top: 5rem;
         overflow: auto;
+        
     }
+
+    .logo_container {
+        display: flex;
+    }
+
     .header {
         padding-left: 1.3rem;
         padding-top: 0.8rem;
@@ -188,7 +208,7 @@ table th {
         flex-grow: 1;
     }
     .menu {
-        padding-top: 4.5rem;
+        padding-top: 7rem;
         display: none;
         overflow: auto;
         padding-left: 1rem;
@@ -204,7 +224,7 @@ table th {
     }
 
     .content_container {
-        padding-top: 4.5rem;
+        padding-top: 7rem;
         padding-left: 1rem;
         padding-right: 1rem;
         padding-bottom: 7rem;
@@ -214,7 +234,7 @@ table th {
     }
     .header {
         padding: 1rem;
-        height: 4rem;
+        height: 6rem;
         width: 100%;
         background-color: black;
         position: fixed;
@@ -235,6 +255,11 @@ table th {
     .logo {
         font-size: 2rem;
         line-height: 1.05;
+    }
+    .sublogo {
+        font-size: 1.57rem;
+        /* line-height: 1.05; */
+        padding: 0;
     }
     .menu_button {
         margin: auto;
