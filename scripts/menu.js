@@ -22,7 +22,7 @@ let menu = "<div id='menu' class='menu'>" +
 "</div>" +
 "<h3>Дополнительные материалы</h3>" +
 "<div class='list'>" + 
-"<p><a class='download' href='./files/Mothership_Character_Sheet_Ru_v1.5.pdf' target='_blank'>Лист персонажа</a></p>" +
+"<p><a class='download' href='./files/Mothership_Character_Sheet_Ru.pdf' target='_blank'>Лист персонажа</a></p>" +
 "<p><a class='download' href='./files/Mothership_Mercenaries_Sheet_Ru_v1.0.pdf' target='_blank'>Листы наёмников</a></p>" +
 "<p><a class='download' href='./files/Mothership_Ship_Sheet_Ru_v1.0.pdf' target='_blank'>Лист корабля</a></p>" +
 "</div>" +
