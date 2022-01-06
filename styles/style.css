@@ -107,6 +107,11 @@ ul li:before {
 }
     
 table tr:nth-child(odd){background-color: #f2f2f2;}
+
+table ul {
+    padding-inline-start: inherit;
+    margin: inherit;
+}
     
 table th {
     padding-top: 12px;
