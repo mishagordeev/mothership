@@ -33,21 +33,26 @@ a:link {
     text-decoration: none;
     white-space: nowrap;
 }
+
 a.external {
     text-decoration: underline;
 }
+
 a:visited {
     color: black;
 }
+
 a:hover {
     background-color: black;
     color: white;
 }
+
 .side_link {
     margin-top: 1em;
     text-align: right;
     display: none;
 }
+
 body {
     font-family: 'Roboto Condensed';
     margin: 0px;
@@ -77,20 +82,14 @@ table th {
     color: white;
 }
 
-.list p {
-    text-indent: 0.5rem;
-}
-
-.list p::before {
-    content: "› ";
-}
-
 .footnotes {
     font-size: 0.9rem;
 }
+
 .footnotes p {
     margin-bottom: 1rem;
 }
+
 hr {
     border: none;
     background-color: black;
@@ -106,11 +105,10 @@ ul {
 
 ul li {
     text-indent: -0.5rem;
-    padding-bottom: 0.20rem;
 }
 
 ul li:before {
-    content: "›"; 
+    content: "› "; 
 }
     
 table tr:nth-child(odd){background-color: #f2f2f2;}
@@ -125,6 +123,7 @@ table ul {
     font-family: 'Montserrat';
     font-size: 3rem;
 }
+
 .sublogo {
     display: block;
     font-family: 'Roboto';
@@ -138,20 +137,24 @@ table ul {
     h1 {
         margin-block-start: 0;
     }
+
     .content_container {
         margin-left: 300px;
         padding-bottom: 5rem; 
         padding-top: 6rem;
         height: 100%;
     }
+
     .content {
         padding: 2em 0;
         margin: 0 auto;
         width: 800px;
     }
+
     .wrapper {
         position: relative;
     }
+
     .menu {
         display: block;
         padding: 1.5rem;
@@ -173,14 +176,15 @@ table ul {
 
     .header {
         padding-left: 1.3rem;
-        padding-top: 0.8rem;
-        padding-bottom: 0.8rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         width: 100%;
         background-color: black;
         color: white;  
         position: fixed;
         z-index: 999;
     }
+
     .footer {
         clear: both;
         background-color: black;      
@@ -193,6 +197,7 @@ table ul {
     .menu_button {
         display: none;
     }
+
     .close_button {
         display: none;
     }
@@ -212,9 +217,11 @@ table ul {
         flex-direction: column;
         min-height: 100vh;
     }
+
     .wrapper {
         flex-grow: 1;
     }
+
     .menu {
         padding-top: 7rem;
         display: none;
@@ -240,6 +247,7 @@ table ul {
         overflow: auto;
         clear: both;
     }
+
     .header {
         padding: 1rem;
         height: 6rem;
@@ -252,32 +260,39 @@ table ul {
         justify-content: flex-start;
         color: white;
     }
+
     .button_image {
         height: 1rem;     
     }
+
     .logo_container {
         margin: auto;
         padding: 0;
         height: 100%;
     }
+
     .logo {
         font-size: 2rem;
         line-height: 1.05;
     }
+
     .sublogo {
         font-size: 1.57rem;
         /* line-height: 1.05; */
         padding: 0;
     }
+
     .menu_button {
         margin: auto;
         height: 1rem;
     }
+
     .close_button {
         display: none;
         margin: auto;  
         height: 1rem;     
     }
+
     .footer {
         /* clear: both; */
         background-color: black;      
@@ -285,6 +300,7 @@ table ul {
         padding: 1rem;
         flex-shrink: 0;
     }
+    
     a:hover {
         background-color: black;
         color: white;
