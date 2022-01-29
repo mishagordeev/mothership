@@ -1,21 +1,25 @@
-        function headerButtonsClick() {
-          var menu = document.getElementById("menu");
-          var content_container = document.getElementById("content_container");
-          var menuButton = document.getElementById("menu_button");
-          var closeButton = document.getElementById("close_button");
-          var wrapper = document.getElementById("wrapper");
-          if (menu.style.display === "block") {
-            menu.style.display = "none";
-            content_container.style.display = "block";
-            menuButton.style.display = "block";
-            closeButton.style.display = "none";
-            wrapper.style.backgroundColor = "#fff"
-          } else {
-            menu.style.display = "block";
+        function menuButtonClick() {
+          let menu = document.getElementById("menu")
+          let contentContainer = document.getElementById("content_container")
+          let menuButton = document.getElementById("menu_button")
+          let closeButton = document.getElementById("close_button")
+          let wrapper = document.getElementById("wrapper")
+          if (closeButton.classList.contains("inactive")) {
+
+            closeButton.classList.remove("inactive")
+            menuButton.classList.add("inactive")
+            menu.classList.remove("inactive")
             menu.scrollTop = 0;
-            content_container.style.display = "none";
-            menuButton.style.display = "none";
-            closeButton.style.display = "block";
-            wrapper.style.backgroundColor = "#ddd"
+            contentContainer.classList.add("inactive")
+            wrapper.classList.add("menu_color")
+
+          } else {
+
+            closeButton.classList.add("inactive")
+            menuButton.classList.remove("inactive")
+            menu.classList.add("inactive")
+            contentContainer.classList.remove("inactive")
+            wrapper.classList.remove("menu_color")   
+
           }
         }

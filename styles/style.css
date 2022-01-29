@@ -133,12 +133,22 @@ table ul {
     opacity: .5
 }
 
+.inactive {
+    display: none;
+}
+
+.menu_color {
+    background-color: #ddd;
+}
+
+
 @media screen and (min-width: 1125px) {
     h1 {
         margin-block-start: 0;
     }
 
     .content_container {
+        display: block;
         margin-left: 300px;
         padding-bottom: 5rem; 
         padding-top: 6rem;
@@ -153,6 +163,7 @@ table ul {
 
     .wrapper {
         position: relative;
+        background-color: white;
     }
 
     .menu {
@@ -167,7 +178,6 @@ table ul {
         position: fixed;
         margin-top: 5rem;
         overflow: auto;
-        
     }
 
     .logo_container {
@@ -194,13 +204,13 @@ table ul {
         margin-left: 250px;
     }
 
-    .menu_button {
+    /* #menu_button {
         display: none;
     }
 
-    .close_button {
+    #close_button {
         display: none;
-    }
+    } */
     
     .desktop_table {
         display: block;
@@ -209,9 +219,25 @@ table ul {
     .mobile_table {
         display: none;
     }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
 }
 
 @media screen and (max-width : 1125px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
     body {
         display: flex;
         flex-direction: column;
@@ -224,7 +250,6 @@ table ul {
 
     .menu {
         padding-top: 7rem;
-        display: none;
         overflow: auto;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -285,12 +310,6 @@ table ul {
     .menu_button {
         margin: auto;
         height: 1rem;
-    }
-
-    .close_button {
-        display: none;
-        margin: auto;  
-        height: 1rem;     
     }
 
     .footer {

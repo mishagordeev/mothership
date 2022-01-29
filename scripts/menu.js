@@ -1,4 +1,4 @@
-let menu = "<div id='menu' class='menu'>" +
+let menu = "<div id='menu' class='menu inactive'>" +
 "<h3>Руководство по выживанию</h3>" +
 "<ul>" +
 "<li><a class='internal' href='./'>Создание персонажа</a></li>" +
