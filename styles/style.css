@@ -204,22 +204,6 @@ table ul {
         margin-left: 250px;
     }
 
-    /* #menu_button {
-        display: none;
-    }
-
-    #close_button {
-        display: none;
-    } */
-    
-    .desktop_table {
-        display: block;
-    }
-
-    .mobile_table {
-        display: none;
-    }
-
     .mobile {
         display: none;
     }
@@ -323,13 +307,5 @@ table ul {
     a:hover {
         background-color: black;
         color: white;
-    }
-
-    .desktop_table {
-        display: none;
-    }
-
-    .mobile_table {
-        display: block;
     }
 }
