@@ -56,10 +56,14 @@ a.external:hover {
     background-color: white;
     color: black;
 }
-.side_link {
-    margin-top: 1em;
+
+.reference {
+    margin-top: 1rem;
     text-align: right;
-    display: none;
+}
+
+.reference::after {
+    content: " »";
 }
 
 body {
