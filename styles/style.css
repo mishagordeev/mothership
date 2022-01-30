@@ -34,10 +34,6 @@ a:link {
     white-space: nowrap;
 }
 
-a.external {
-    text-decoration: underline;
-}
-
 a:visited {
     color: black;
 }
@@ -47,6 +43,19 @@ a:hover {
     color: white;
 }
 
+a.external:link {
+    color: white;
+    text-decoration: underline;
+}
+
+a.external:visited {
+    color: white;
+}
+
+a.external:hover {
+    background-color: white;
+    color: black;
+}
 .side_link {
     margin-top: 1em;
     text-align: right;
@@ -56,6 +65,12 @@ a:hover {
 body {
     font-family: 'Roboto Condensed';
     margin: 0px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
 }
 
 p { 
@@ -173,7 +188,7 @@ table ul {
         float: left;
         width: 250px;
         background-color: #ddd;  
-        color: black;  
+        /* color: black;   */
         height: 100%;
         position: fixed;
         margin-top: 5rem;
@@ -197,10 +212,6 @@ table ul {
 
     .footer {
         clear: both;
-        background-color: black;      
-        color: white;
-        padding: 1em;
-        z-index: 999;
         margin-left: 250px;
     }
 
@@ -297,15 +308,6 @@ table ul {
     }
 
     .footer {
-        /* clear: both; */
-        background-color: black;      
-        color: white;
-        padding: 1rem;
         flex-shrink: 0;
-    }
-    
-    a:hover {
-        background-color: black;
-        color: white;
     }
 }
