@@ -29,11 +29,6 @@ html {
     font-weight: 200;
 }
 
-@font-face {
-    font-family: 'Roboto';
-    src: url(../fonts/Roboto-Thin.ttf);
-}
-
 a:link {
     color: black;
     text-decoration: none;
