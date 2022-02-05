@@ -84,9 +84,10 @@ p {
 }
 
 table {
-    font-size: 15px;
+    font-size: .9rem;
     border-collapse: collapse;
     width: 100%;
+    margin: 1rem 0;
 }
 
 table td {
