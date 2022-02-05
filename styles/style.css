@@ -78,11 +78,6 @@ body {
     padding: 1rem;
 }
 
-p { 
-    margin-block-end: 0; 
-    margin-block-start: 0;     
-}
-
 table {
     font-size: .9rem;
     border-collapse: collapse;
@@ -171,6 +166,10 @@ table ul {
     z-index: 999;
     padding: 1rem;
     display: flex;
+}
+
+.footer p {
+    margin: 0;
 }
 
 @media screen and (min-width: 1125px) {
