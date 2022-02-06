@@ -77,6 +77,19 @@ body {
     margin: 0px;
 }
 
+.example {
+    background-color: #ddd;
+    padding: 1rem;
+}
+
+.example p:first-child {
+    margin-block-start: 0;
+}
+
+.example p:last-child {
+    margin-block-end: 0;
+}
+
 .footer {
     background-color: black;
     color: white;
