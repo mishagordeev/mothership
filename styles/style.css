@@ -63,12 +63,12 @@ a.external:hover {
     top: -21px;
 }
 
-.reference {
+.internal {
     margin-top: 1rem;
     text-align: right;
 }
 
-.reference::after {
+.internal::after {
     content: " »";
 }
 
