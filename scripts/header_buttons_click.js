@@ -12,6 +12,7 @@
             menu.scrollTop = 0;
             contentContainer.classList.add("inactive")
             wrapper.classList.add("menu_color")
+            window.scrollTo(0,0)
 
           } else {
 
