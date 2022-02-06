@@ -8,3 +8,6 @@ let header =
 "</div>" +
 "</div>"
 document.body.innerHTML = header;
+let headerElement = document.getElementById("header")
+document.body.style.cssText += `margin-top:  ${headerElement.clientHeight}px`;
+document.documentElement.style.cssText += `scroll-padding-top:  ${headerElement.clientHeight}px`;
