@@ -116,6 +116,10 @@ table th {
     color: white;
 }
 
+table .inside {
+    margin: 0;
+}
+
 .footnotes {
     font-size: 0.9rem;
 }
