@@ -12,7 +12,7 @@ let menu = "<div id='menu' class='menu inactive'>" +
 "<li><a href='./equipment.html'>Предметы</a></li>" +
 "<li><a href='./trinkets.html'>Безделушки</a></li>" +
 "<li><a href='./patches.html'>Нашивки</a></li>" +
-"<li><a href='./mercenaries.html'>Наёмники</a></li>" +
+"<li><a href='./mercenaries.html'>Наемники</a></li>" +
 "<li><a href='./stress.html'>Стресс, паника, решимость</a></li>" +
 "<li><a href='./space-travel.html'>Путешествия в космосе</a></li>" +
 "<li><a href='./ship-design.html'>Проектирование кораблей</a></li>" +
