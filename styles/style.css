@@ -148,6 +148,10 @@ ul li {
 ul li:before {
     content: "› "; 
 }
+
+ol {
+    padding-inline-start: 2rem;
+}
     
 table tr:nth-child(odd){background-color: #f2f2f2;}
 
