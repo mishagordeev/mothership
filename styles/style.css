@@ -58,18 +58,18 @@ a.external:hover {
     color: black;
 }
 
+a.internal:link {
+    text-decoration: underline;
+}
+
 .anchor {
     position: relative; 
     top: -20px;
 }
 
-.internal {
+.reference {
     margin-top: 1rem;
     text-align: right;
-}
-
-.internal::after {
-    content: " »";
 }
 
 body {
