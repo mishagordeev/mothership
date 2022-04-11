@@ -90,9 +90,20 @@ body {
     margin-block-end: 0;
 }
 
-.footer {
+footer {
     background-color: black;
     color: white;
+    font-weight: 300;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer > div {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
     padding: 1rem;
 }
 
@@ -195,11 +206,19 @@ table ul {
     display: flex;
 }
 
-.footer p {
-    margin: 0;
-}
-
 @media screen and (min-width: 1125px) {
+    footer .social p {
+        text-align: right;
+    }
+
+    footer .social a {
+        margin-left: 1rem;
+    }
+
+    footer .social img {
+        height: 20px;
+    }
+
     h1 {
         margin-block-start: 0;
     }
@@ -234,11 +253,6 @@ table ul {
         height: 100%;
         position: fixed;
         overflow: auto;
-    }
-
-    .footer {
-        clear: both;
-        margin-left: 250px;
     }
 
     .mobile {
@@ -305,7 +319,15 @@ table ul {
         height: 1rem;
     }
 
-    .footer {
-        flex-shrink: 0;
+    footer > div {
+        flex-direction: column-reverse;
     }
+
+    footer .social a {
+        margin-right: 1.25rem;
+    }
+
+    footer .social img {
+        height: 30px;
+    }    
 }
