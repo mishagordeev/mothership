@@ -18,15 +18,14 @@ html {
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url(../fonts/Montserrat-Bold.ttf);
-    font-weight: bold;
+    font-family: 'Futura PT';
+    src: url(../fonts/FuturaPTBook.otf);
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url(../fonts/Montserrat-ExtraLight.ttf);
-    font-weight: 200;
+    font-family: 'Futura PT';
+    src: url(../fonts/FuturaPTBold.otf);
+    font-weight: bold;
 }
 
 a:link {
