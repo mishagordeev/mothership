@@ -13,6 +13,12 @@ html {
 
 @font-face {
     font-family: 'Roboto Condensed';
+    src: url(../fonts/RobotoCondensed-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
     src: url(../fonts/RobotoCondensed-Bold.ttf);
     font-weight: bold;
 }
@@ -74,6 +80,7 @@ a.internal:link {
 body {
     font-family: 'Roboto Condensed';
     margin: 0px;
+    font-weight: 300;
 }
 
 .example {
@@ -215,13 +222,13 @@ header {
         display: block;
     }
 
-    .content {
+    article {
         padding: 2rem 0;
         margin: 0 auto;
-        width: 700px;
+        max-width: 700px;
     }
 
-    .wrapper {
+    main {
         position: relative;
         background-color: white;
     }
@@ -270,15 +277,13 @@ header {
         position: relative;
     }
 
-    .wrapper {
+    main {
         flex-grow: 1;
     }
 
     .menu {
         overflow: auto;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 2rem;
+        padding: 5rem 1rem;
         margin: 0;
         width: auto;
         font-size: 20px;
@@ -288,13 +293,9 @@ header {
         font-weight: normal;
     }
 
-    .content_container {
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 1rem;
-        margin: 0;
+    article {
+        padding: 5rem 1rem;
         overflow: auto;
-        clear: both;
     }
 
     .button_image {
