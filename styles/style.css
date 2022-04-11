@@ -110,7 +110,6 @@ footer > div {
     max-width: 700px;
     margin: 0 auto;
     display: flex;
-    padding: 1rem;
 }
 
 table {
@@ -194,6 +193,10 @@ header {
 }
 
 @media screen and (min-width: 1125px) {
+    footer {
+        padding: 1rem 0;
+    }
+
     footer .social p {
         text-align: right;
     }
@@ -203,7 +206,7 @@ header {
     }
 
     footer .social img {
-        height: 20px;
+        height: 16px;
     }
 
     h1 {
@@ -307,6 +310,10 @@ header {
         height: 1rem;
     }
 
+    footer {
+        padding: 1rem;
+    }
+
     footer > div {
         flex-direction: column-reverse;
     }
@@ -316,6 +323,6 @@ header {
     }
 
     footer .social img {
-        height: 30px;
-    }    
+        height: 24px;
+    }
 }

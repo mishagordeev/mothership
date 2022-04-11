@@ -25,9 +25,9 @@ let footer =
                 Следи за обновлениями 
             </p> 
             <p style="padding-top: 10px;">
-                <a href='https://t.me/mothershiprpgru' target='_blank'><img src="../images/tg.png"></a>
-                <a href='https://vk.com/mothershiprpgru' target='_blank'><img src="../images/vk.png"></a>
-                <a href='https://discord.gg/CNmnVHRazJ' target='_blank'><img src="../images/discord.png"></a>
+                <a href='https://t.me/mothershiprpgru' target='_blank'><img src="../images/tg.svg"></a>
+                <a href='https://vk.com/mothershiprpgru' target='_blank'><img src="../images/vk.svg"></a>
+                <a href='https://discord.gg/CNmnVHRazJ' target='_blank'><img src="../images/discord.svg"></a>
             </p> 
             <br>      
         </div>  
