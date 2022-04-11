@@ -1,13 +1,24 @@
-let header = 
-"<div id='header' class='header'>" +
-"<div class='logo_container'><div class='logo'>MOTHERSHIP</div><div class='sublogo'>SCI-FI HORROR RPG</div></div>" +
-"<div style='flex-grow: 1;'></div>" +
-"<div onclick='menuButtonClick()' class = 'mobile menu_button'>" +
-"<div id='menu_button'><img class='button_image' src='./images/menu_button.png'></img></div>" +
-"<div class='inactive' id='close_button'><img class='button_image' src='./images/close_button.png'></img></div>" +
-"</div>" +
-"</div>"
+let header =
+`<header>
+    <div class='logo'>
+        <div style="flex-grow: 1;"></div>
+        <span>МАЗЕРШИП</span>
+        <div style="flex-grow: 1;"></div>
+    </div>
+    <div style='flex-grow: 1;'></div>
+    <div class="desktop">
+        <div class="menu">
+            <p>ПРАВИЛА</p>
+            <p>МОДУЛИ</p>
+            <p>ЛИСТЫ</p>
+            <p>ДОПОЛНЕНИЯ</p>
+            <p>ВИДЕО</p>
+        </div>
+    </div>
+    <div style='flex-grow: 1;'></div>
+    <div onclick='menuButtonClick()' class = 'mobile menu_button'>
+        <div id='menu_button'><img class='button_image' src='./images/menu_button.png'></img></div>
+        <div class='inactive' id='close_button'><img class='button_image' src='./images/close_button.png'></img></div>
+    </div>
+</header>`
 document.body.innerHTML = header;
-let headerElement = document.getElementById("header")
-document.body.style.cssText += `margin-top:  ${headerElement.clientHeight}px`;
-document.documentElement.style.cssText += `scroll-padding-top:  ${headerElement.clientHeight}px`;

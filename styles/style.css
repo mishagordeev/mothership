@@ -170,39 +170,20 @@ table ul {
     margin: inherit;
 }
 
-.logo {
-    display: block;
-    font-family: 'Montserrat';
-    font-weight: bold;
-    float:left;
-    margin-right: 1rem;
-}
-
-.sublogo {
-    display: block;
-    font-family: 'Montserrat';
-    font-weight: 200;
-    opacity: .5;
-    float:left;
-}
-
 .inactive {
     display: none;
 }
 
-.menu_color {
-    background-color: #ddd;
-}
-
-.header {
+header {
+    font-family: 'Futura PT';
     width: 100%;
     background-color: black;
     color: white;
     position: fixed;
     top: 0;
     z-index: 999;
-    padding: 1rem;
     display: flex;
+    padding: 0 1rem;
 }
 
 @media screen and (min-width: 1125px) {
@@ -222,19 +203,22 @@ table ul {
         margin-block-start: 0;
     }
 
-    .logo_container {
-        font-size: 3rem;
+    .logo {
+        font-size: 2rem;
+        height: 100%;
+        display: flex; 
+        flex-direction: column;
+        position: absolute;
     }
 
     .content_container {
         display: block;
-        margin-left: 300px;
     }
 
     .content {
         padding: 2rem 0;
         margin: 0 auto;
-        width: 800px;
+        width: 700px;
     }
 
     .wrapper {
@@ -243,15 +227,17 @@ table ul {
     }
 
     .menu {
-        display: block;
-        padding: 1rem;
-        float: left;
-        width: 250px;
-        background-color: #ddd;  
-        /* color: black;   */
-        height: 100%;
-        position: fixed;
-        overflow: auto;
+        display: flex;
+        font-size: 1.25rem;
+        justify-content: space-between;
+    }
+
+    .menu p {
+        margin-right: 50px;
+    }
+
+    .menu p:last-child {
+        margin-right: 0; 
     }
 
     .mobile {
@@ -278,8 +264,10 @@ table ul {
         min-height: 100vh;
     }
 
-    .logo_container {
+    .logo {
         font-size: 1.6rem;
+        margin: 1rem 0;
+        position: relative;
     }
 
     .wrapper {
