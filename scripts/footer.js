@@ -3,7 +3,7 @@ let footer =
     <div>
         <div>
             <p>
-                © 2021-2022 Михаил Гордеев
+                © 2021-2022 Mothershiprpg.ru
             </p>
             <div style="font-size: 0.6rem">
                 <br>
@@ -24,7 +24,7 @@ let footer =
             <p>
                 Следи за обновлениями 
             </p> 
-            <p style="padding-top: 10px;">
+            <p style="padding-top: 12px;">
                 <a href='https://t.me/mothershiprpgru' target='_blank'><img src="../images/tg.svg"></a>
                 <a href='https://vk.com/mothershiprpgru' target='_blank'><img src="../images/vk.svg"></a>
                 <a href='https://discord.gg/CNmnVHRazJ' target='_blank'><img src="../images/discord.svg"></a>
