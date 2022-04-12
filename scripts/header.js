@@ -17,8 +17,8 @@ let header =
     </div>
     <div style='flex-grow: 1;'></div>
     <div onclick='menuButtonClick()' class = 'mobile menu_button'>
-        <div id='menu_button'><img class='button_image' src='./images/menu_button.png'></img></div>
-        <div class='inactive' id='close_button'><img class='button_image' src='./images/close_button.png'></img></div>
+        <img id='menu_button' class='button_image' src='./images/menu.svg'></img>
+        <img id='close_button' class='button_image inactive' src='./images/close.svg'></img>
     </div>
 </header>`
 document.body.innerHTML = header;
