@@ -290,10 +290,7 @@ header {
         margin: 0;
         width: auto;
         font-size: 20px;
-    }
-
-    .menu a:link {
-        font-weight: normal;
+        font-family: 'Futura PT';
     }
 
     article {
