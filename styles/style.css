@@ -34,7 +34,30 @@ html {
     font-weight: bold;
 }
 
-a:link {
+.categories {
+    margin-top: 1.25rem;
+    margin-bottom: 1.75rem;
+    white-space: nowrap; 
+}
+
+.categories span {
+    padding: 0.5rem;
+    margin-right: 14px;
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+
+.categories span:hover {
+    background-color: #ddd;
+}
+
+.categories span.selected {
+    background-color: #ddd;
+    cursor: auto;
+}
+
+
+
 article a {
     color: black;
     text-decoration: underline;
