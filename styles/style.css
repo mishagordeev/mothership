@@ -77,22 +77,20 @@ article a:hover {
     color: white; 
 }
 
-a.external:link {
+footer, header a {
+    padding: .25rem .5rem; 
     color: white;
-    text-decoration: underline;
-}
+    text-decoration: none;
+} 
 
-a.external:visited {
+footer, header a:visited {
     color: white;
-}
+} 
 
-a.external:hover {
+footer, header a:hover {
     background-color: white;
     color: black;
-}
-
-a.internal:link {
-    text-decoration: underline;
+    cursor: pointer;
 }
 
 .anchor {
