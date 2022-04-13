@@ -1,6 +1,6 @@
         function menuButtonClick() {
           let menu = document.getElementById("menu")
-          let content = document.getElementById("content")
+          let content = document.getElementById("root")
           let menuButton = document.getElementById("menu_button")
           let closeButton = document.getElementById("close_button")
           let wrapper = document.getElementById("wrapper")
