@@ -23,7 +23,7 @@ function loadData(section) {
             });
             
             showContent(data.content, data.selectors[0])
-            loadFooter()
+            showFooter()
         }
     })
 }
