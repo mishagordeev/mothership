@@ -34,6 +34,10 @@ html {
     font-weight: bold;
 }
 
+h1 {
+    text-transform: capitalize;
+}
+
 .categories {
     margin-top: 1.25rem;
     margin-bottom: 1.75rem;
@@ -48,7 +52,7 @@ html {
 }
 
 .categories span:hover {
-    background-color: #ddd;
+    
 }
 
 .categories span.selected {
