@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>Мазерпшип – Дополнения</title>
+    <meta lang="ru">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="./styles/style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EXTFXWKTX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1EXTFXWKTX');
+    </script>
+
+    <script src='https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js'></script>
+    <script src='https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js'></script>
+    <script src='https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js'></script>
+    <script src='https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js'></script>
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyCUBpbYpnmB0z6ieMVHQfaJj-pqVoOkRbU",
+            authDomain: "mothership-f39e6.firebaseapp.com",
+            databaseURL: "https://mothership-f39e6-default-rtdb.europe-west1.firebasedatabase.app",
+            projectId: "mothership-f39e6",
+            storageBucket: "mothership-f39e6.appspot.com",
+            messagingSenderId: "830435212728",
+            appId: "1:830435212728:web:f1a57ea196f156f683634d"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+    <script src='./scripts/header_buttons_click.js'></script>
+    <script src="./scripts/footer.js"></script>
+    <script src="./scripts/load_data.js"></script>
+
+</head>
+<body>
+    <script src='./scripts/header.js'></script> 
+    <main id="wrapper">
+        <script src='./scripts/menu.js'></script>
+        <article id="root">
+            <script>loadData('additions')</script>
+        </article>
+    </main>
+</body>
+</html>
