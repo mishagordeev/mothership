@@ -152,6 +152,16 @@ hr {
     width: 100px;
 }
 
+.block {
+    padding-bottom: 1rem;
+    margin-bottom: .75rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.block p, h3 {
+    margin: 0;
+}
+
 ul {
     list-style: none;
     padding-inline-start: 1.5rem;
