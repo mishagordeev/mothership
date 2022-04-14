@@ -111,6 +111,14 @@ main {
     flex-grow: 1;
 }
 
+.side_menu {
+    background-color: #ddd; 
+    width: 250px; 
+    position: fixed; 
+    height: 100vh; 
+    padding-top: 5rem;
+}
+
 .example {
     background-color: #ddd;
     padding: 1rem;
@@ -128,6 +136,7 @@ footer {
     background-color: black;
     color: white;
     font-weight: 300;
+    z-index: 999;
 }
 
 footer p {
