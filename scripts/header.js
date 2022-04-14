@@ -2,7 +2,7 @@ let header =
 `<header>
     <div class='logo'>
         <div style="flex-grow: 1;"></div>
-        <span><a>МАЗЕРШИП</a></span>
+        <span><a href="..">МАЗЕРШИП</a></span>
         <div style="flex-grow: 1;"></div>
     </div>
     <div style='flex-grow: 1;'></div>
