@@ -51,16 +51,10 @@ h1 {
     cursor: pointer;
 }
 
-.categories span:hover {
-    
-}
-
 .categories span.selected {
     background-color: #ddd;
     cursor: auto;
 }
-
-
 
 article a {
     color: black;
