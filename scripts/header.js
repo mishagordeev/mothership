@@ -2,17 +2,17 @@ let header =
 `<header>
     <div class='logo'>
         <div style="flex-grow: 1;"></div>
-        <span>МАЗЕРШИП</span>
+        <span><a>МАЗЕРШИП</a></span>
         <div style="flex-grow: 1;"></div>
     </div>
     <div style='flex-grow: 1;'></div>
     <div class="desktop">
         <div class="menu">
-            <p>ПРАВИЛА</p>
-            <p>МОДУЛИ</p>
-            <p>ЛИСТЫ</p>
-            <p>ДОПОЛНЕНИЯ</p>
-            <p>ВИДЕО</p>
+            <p><a href="contents.html">ПРАВИЛА</a></p>
+            <p><a href="modules.html">МОДУЛИ</a></p>
+            <p><a href="lists.html">ЛИСТЫ</a></p>
+            <p><a href="additions.html">ДОПОЛНЕНИЯ</a></p>
+            <p><a href="video.html">ВИДЕО</a></p>
         </div>
     </div>
     <div style='flex-grow: 1;'></div>
