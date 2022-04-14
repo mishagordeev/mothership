@@ -56,31 +56,31 @@ h1 {
     cursor: auto;
 }
 
-article a {
+article a, nav a {
     color: black;
     text-decoration: underline;
     white-space: nowrap;    
 }
 
-article a:visited {
+article a:visited, nav a:visited {
     color: black;
 }
 
-article a:hover {
+article a:hover, nav a:hover {
     background-color: black;
     color: white; 
 }
 
-footer, header a {
+footer a, header a {
     color: white;
     text-decoration: none;
 } 
 
-footer, header a:visited {
+footer a:visited, header a:visited {
     color: white;
 } 
 
-footer, header a:hover {
+footer a:visited, header a:hover {
     background-color: white;
     color: black;
     cursor: pointer;
