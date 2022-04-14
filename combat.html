@@ -14,13 +14,13 @@
         gtag('config', 'G-1EXTFXWKTX');
     </script>
     <script src='./scripts/header_buttons_click.js'></script>
+    <script src="./scripts/show_footer.js"></script>
 </head>
 <body>
-    <script src='./scripts/header.js'></script> 
-    <div class="wrapper" id="wrapper">
-        <script src='./scripts/menu.js'></script>
-        <div id="content_container" class="content_container">
-            <div id="content" class="content">
+  <script src='./scripts/header.js'></script> 
+  <main id="wrapper">
+      <script src='./scripts/menu.js'></script>
+      <article id="root">
                 <h1>Бой</h1>
                 <p>
                   Бой в <b>Mothership</b> невероятно смертелен, чаще лучше бежать, чем сражаться. Но в тяжелых ситуациях, когда другого выбора нет, вот что тебе нужно знать.
@@ -186,9 +186,8 @@
                     <td>Немедленно. У тебя 1 здоровье. Помеха ко всем проверкам на 3d10 минут. +1 пункт стресса.</td>
                   </tr>
                 </table>
-            </div>
-        </div>
-    </div>
-    <script src="./scripts/footer.js"></script>
+            </article>
+          </main>
+    <script>showFooter()</script>
 </body>
 </html>

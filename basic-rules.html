@@ -14,13 +14,13 @@
         gtag('config', 'G-1EXTFXWKTX');
     </script>
     <script src='./scripts/header_buttons_click.js'></script>
+    <script src="./scripts/show_footer.js"></script>
 </head>
 <body>
-    <script src='./scripts/header.js'></script> 
-    <div class="wrapper" id="wrapper">
-        <script src='./scripts/menu.js'></script>
-        <div id="content_container" class="content_container">
-            <div id="content" class="content">
+  <script src='./scripts/header.js'></script> 
+  <main id="wrapper">
+      <script src='./scripts/menu.js'></script>
+      <article id="root">
                 <h1>Основные правила</h1>
                 <p>
                   <b>Mothership</b> похож на другие настольные-ролевые игры. Вы собираетесь с друзьями, один из вас становится <b>смотрителем</b>, который создает или использует готовый сценарий игры, а остальные в него играют. Правила ниже помогут в разрешении самых распространенных ситуаций во время игры. С остальными поможет смотритель.
@@ -158,9 +158,8 @@
                     Интеллект Марлоу равен 52, а инстинкт рейдера – 30. Они оба бросают d%. Марлоу выбрасывает 9, это успех! К сожалению, Рейдер выбрасывает 20, что тоже является успехом, но это более высокий результат, чем у Марлоу. Рейдер улавливает замысел Марлоу и оставляет винтовку там, где она есть, вместо этого вцепляясь андроиду в шею!
                   </p>
                 </div>
-            </div>
-        </div>
-    </div>
-    <script src="./scripts/footer.js"></script>
+            </article>
+          </main>
+    <script>showFooter()</script>
 </body>
 </html>

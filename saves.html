@@ -14,13 +14,13 @@
         gtag('config', 'G-1EXTFXWKTX');
     </script>
     <script src='./scripts/header_buttons_click.js'></script>
+    <script src="./scripts/show_footer.js"></script>
 </head>
 <body>
     <script src='./scripts/header.js'></script> 
-    <div class="wrapper" id="wrapper">
+    <main id="wrapper">
         <script src='./scripts/menu.js'></script>
-        <div id="content_container" class="content_container">
-            <div id="content" class="content">
+        <article id="root">
                 <h1>Испытания</h1>
                 <p>
                     Часто в <b>Mothership</b> всё выходит из-под контроля. Странные организмы атакуют или пытаются захватить твое тело, мрачные ужасы пугают из темноты, ты узнаешь древние тайны за пределами понимания.
@@ -58,8 +58,8 @@
                     </p>
                 </div>
             </div>
-        </div>
-    </div>
-    <script src="./scripts/footer.js"></script>
+        </article>
+    </main>
+    <script>showFooter()</script>
 </body>
 </html>

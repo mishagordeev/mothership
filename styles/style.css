@@ -185,6 +185,7 @@ hr {
 ul {
     list-style: none;
     padding-inline-start: 1.5rem;
+    line-height: 1.3rem;
 }
 
 ul li {

@@ -14,13 +14,13 @@
         gtag('config', 'G-1EXTFXWKTX');
     </script>
     <script src='./scripts/header_buttons_click.js'></script>
+    <script src="./scripts/show_footer.js"></script>
 </head>
 <body>
-    <script src='./scripts/header.js'></script> 
-    <div class="wrapper" id="wrapper">
-        <script src='./scripts/menu.js'></script>
-        <div id="content_container" class="content_container">
-            <div id="content" class="content">
+  <script src='./scripts/header.js'></script> 
+  <main id="wrapper">
+      <script src='./scripts/menu.js'></script>
+      <article id="root">
                 <h1>Выживание</h1>
                 <p>
                     Выжить в Mothership не так просто: иногда нужно экономить, делать запасы или копаться в мусоре, чтобы протянуть еще один день. И всё это, не считая сражений с мерзкими пришельцами из далеких галактик.
@@ -119,8 +119,8 @@
                     </tr>
                 </table>
             </div>
-        </div>
-    </div>
-    <script src="./scripts/footer.js"></script>
+          </article>
+      </main>
+    <script>showFooter()</script>
 </body>
 </html>

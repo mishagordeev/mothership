@@ -14,13 +14,14 @@
         gtag('config', 'G-1EXTFXWKTX');
     </script>
     <script src='./scripts/header_buttons_click.js'></script>
+    <script src="./scripts/show_footer.js"></script>
+
 </head>
 <body>
-    <script src='./scripts/header.js'></script> 
-    <div class="wrapper" id="wrapper">
-        <script src='./scripts/menu.js'></script>
-        <div id="content_container" class="content_container">
-            <div id="content" class="content">
+  <script src='./scripts/header.js'></script> 
+  <main id="wrapper">
+      <script src='./scripts/menu.js'></script>
+      <article id="root">
                 <h1>Опыт</h1>
                 <p>
                   Выжить в <b>Mothership</b> сложно, но те, кому это удается, становятся сильнее. Каждую игровую встречу ты получаешь несколько пунктов опыта (<b>ПО</b>) и, когда их будет достаточно, сможешь <b>повысить уровень</b>, чтобы увеличить свои способности и эффективнее противостоять угрозам.
@@ -207,9 +208,8 @@
                 <p>
                   Персонажи в <b>Mothership</b> умирают быстро, но повышение уровня дает тебе шанс продержаться чуть дольше. Поэтому принимай решения осторожно и играй жестко. 
                 </p>
-            </div>
-        </div>
-    </div>
-    <script src="./scripts/footer.js"></script>
+      </article>
+      </main>
+    <script>showFooter()</script>
 </body>
 </html>
