@@ -71,7 +71,7 @@ function showContent(content, selector) {
 
                 let other = document.createElement("p")
                 let link = document.createElement("span")
-                link.innerHTML = `<a href="${item.src}">${item.file}</a>, ${item.size}`
+                link.innerHTML = `<a target='_blank' href="${item.src}">${item.file}</a>  ${item.size}`
                 other.appendChild(link)
                 let date = document.createElement("span")
                 date.style.cssText = "float: right;"
