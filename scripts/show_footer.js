@@ -4,7 +4,7 @@ function showFooter() {
         <div>
             <div>
                 <p>
-                    © 2021-2022 Mothershiprpg.ru
+                    © 2021-2025 Mothershiprpg.ru
                 </p>
                 <div style="font-size: 0.6rem">
                     <br>
@@ -23,11 +23,9 @@ function showFooter() {
             <div style="flex-grow: 1;"></div>
             <div class="social">
                 <p>
-                    Следи за обновлениями 
+                    Присоединяйся к сообществу 
                 </p> 
                 <p style="padding-top: 12px;">
-                    <a href='https://t.me/mothershiprpgru' target='_blank'><img src="../images/tg.svg"></a>
-                    <a href='https://vk.com/mothershiprpgru' target='_blank'><img src="../images/vk.svg"></a>
                     <a href='https://discord.gg/CNmnVHRazJ' target='_blank'><img src="../images/discord.svg"></a>
                 </p> 
                 <br>      
