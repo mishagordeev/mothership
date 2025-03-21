@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+    <title>Mothership – Генераторы</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="./styles/style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EXTFXWKTX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1EXTFXWKTX');
+    </script>
+    <script src='./scripts/header_buttons_click.js'></script>
+    <script src="./scripts/show_footer.js"></script>
+    <script src="./scripts/character_generator.js"></script>
+    <style>
+        .bold {
+            font-weight: bold;
+        }
+        .stats-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(0, 0, 0, .2);
+        }
+        .border-container {
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(0, 0, 0, .2);
+        }
+        .stat-box {
+            flex: 1 1 calc(25% - 10px);
+            text-align: left;
+        }
+        .stat-box.wide {
+            flex: 1 1 calc(25% - 10px);
+        }
+        .stat-box.full {
+            flex: 1 1 calc(50% - 10px);
+        }
+        .container {
+            display: flex; /* Включаем Flexbox */
+        }
+
+        .left-block {
+            min-width: 200px;
+            max-width: 200px;
+        }
+
+        .right-block {
+            flex-grow: 1;
+        }
+        .section {
+            margin-bottom: 10px;
+        }
+        .generate-button {
+        width: 180px;
+        padding: 10px; 
+        margin-top: 2px;
+        background-color: black;
+        color: white; 
+        border: none; 
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Roboto Condensed';
+        }
+        .generate-button:hover {
+        background-color: #333; /* Темно-серый цвет при наведении */
+        }
+    </style>
+</head>
+<body>
+    <script src='./scripts/header.js'></script> 
+    <main id="wrapper">
+        <script src='./scripts/menu.js'></script>
+        <article id="root">
+            <h2>ГЕНЕРАТОР ПЕРСОНАЖА</h2>
+            <div class="container">
+                <div class="left-block">
+                    <img id="portrait" width="180">
+                    <button class="generate-button" onclick="generateCharacter()">Сгенерировать</button>
+                </div>
+                <div class="right-block">
+                    <div class="section"><span class="bold">Имя</span><br><span id="name">-</span></div>
+                    <div class="section"><span class="bold">Класс</span><br><span id="class">-</span></div>
+                    
+                    <div class="stats-container">
+                            
+                            <div class="stat-box"><span class="bold">Сила</span><br><span id="strength">-</span></div>
+                            <div class="stat-box"><span class="bold">Скорость</span><br><span id="speed">-</span></div>
+                            <div class="stat-box"><span class="bold">Интеллект</span><br><span id="intellect">-</span></div>
+                            <div class="stat-box"><span class="bold">Бой</span><br><span id="combat">-</span></div>
+                            
+                            <div class="stat-box wide"><span class="bold">Рассудок</span><br><span id="sanity">-</span></div>
+                            <div class="stat-box wide"><span class="bold">Страх</span><br><span id="fear">-</span></div>
+                            <div class="stat-box wide"><span class="bold">Тело</span><br><span id="body">-</span></div>
+                            <div class="stat-box wide"></div>
+                    </div>
+                    <div class="stats-container">
+                        <div class="stat-box full"><span class="bold">Раны (Здоровье)</span><br><span id="wounds"></span> (<span id="health"></span>)</div>
+                        <div class="stat-box full"><span class="bold">Стресс (Минимум)</span><br><span id="stress"></span> (2)</div>
+                        <div><strong>Реакция на психологическую травму<br></strong> <span id="trauma_response">-</span></div>
+                        
+                    </div>
+                    
+                    <div class="border-container"><span class="bold">Навыки</span><br><span id="skills">-</span></div>
+                    
+                    <div class="section"><span class="bold">Снаряжение</span><br><span id="loadout">-</span></div>
+                    <div class="section"><span class="bold">Безделушка</span><br><span id="trinket">-</span></div>
+                    <div class="section"><span class="bold">Нашивка</span><br><span id="patch">-</span></div>
+                    <div class="section"><span class="bold">Кредиты</span><br><span id="credits">-</span></div>
+                </div>
+
+            </div>
+        </article>
+    </main>
+    <script>showFooter()</script>
+    <script>generateCharacter()</script>
+</body>
+</html>
