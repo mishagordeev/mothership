@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<head>
+    <title>Mothership – Раны и смерть</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1.0">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="./styles/style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EXTFXWKTX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1EXTFXWKTX');
+    </script>
+    <script src='./scripts/header_buttons_click.js'></script>
+    <script src="./scripts/show_footer.js"></script>
+</head>
+<body>
+  <script src='./scripts/header.js'></script> 
+  <script src='./scripts/side_nav.js'></script>
+  <main id="wrapper">
+    <script src='./scripts/menu.js'></script>
+    <article id="root">
+      <a class="mobile" href='./contents.html'>Оглавление</a>
+      <h1>Раны и смерть</h1>
+      <h2>ЧТО ТАКОЕ РАНЫ?</h2>
+      <p>Когда ты получаешь рану, сделай бросок 1d10 по таблице ран в зависимости от типа урона:</p>
+      <ul>
+        <li><strong>Тупая травма:</strong> Удары кулаком, монтировкой, брошенным предметом, от падения и т.д.</li>
+        <li><strong>Кровотечение:</strong> Порезы и колотые раны.</li>
+        <li><strong>Огнестрельное ранение:</strong> Попадания из огнестрельного оружия.</li>
+        <li><strong>Повреждение огнем или взрывом:</strong> Гранаты, огнеметы, облили бензином и подожгли и т.д.</li>
+        <li><strong>Обширные раны и увечья:</strong> Большие и серьезные.</li>
+      </ul>
+      <p>Используй колонку Тяжесть (и здравый смысл) как руководство. Поверхностные раны – это небольшие неудобства. Малые/Средние оставляют длительные последствия, которые требуют медицинского вмешательства. Тяжелые травмы способны привести к смерти, если не разобраться с ними немедленно. Смертельные могут убить сразу. Кровотечение, если его не остановить, может быстро прикончить персонажа. Некоторые атаки наносят раны напрямую (игнорируя броню или снижение урона).</p>
+      <!-- <p class="reference"><a class="internal" href="basic-rules.html">Подробнее об испытаниях смерти ></a></p> -->
+      <table style="text-align: center; margin-bottom: 1.5rem;">
+        <tr>
+          <th colspan="7" style="text-align: center; border-bottom: 2px solid white;">Раны</th>
+        </tr>
+        <tr>
+          <th width="7%" style="text-align: center;">d10</th>
+          <th width="13%" style="text-align: center;">Тяжесть</th>
+          <th width="16%" style="text-align: center;">Тупые</th>
+          <th width="16%" style="text-align: center;">Кровотечение</th>
+          <th width="16%" style="text-align: center;">Огнестрельные</th>
+          <th width="16%" style="text-align: center;">Огнем и взрывом</th>
+          <th width="16%" style="text-align: center;">Обширные и увечья</th>
+        </tr>
+        <tr>
+          <td>00</td>
+          <td>Поверхностная</td>
+          <td>Сбит с ног</td>
+          <td>Брось всё, что держишь в руках</td>
+          <td>Зацепило. Сбит с ног</td>
+          <td>Волосы обгорели. Получи 1d5 стресса</td>
+          <td>Рвота. [−] на следующее действие</td>
+        </tr>
+        <tr>
+          <td>01</td>
+          <td rowspan="4">Легкая</td>
+          <td>Сбилось дыхание. [−] пока не восстановишь</td>
+          <td>Много крови. Все на ближней дистанции получают 1 стресс.</td>
+          <td>Кровотечение +1</td>
+          <td>Ужасный шрам. +1 к минимальному стрессу</td>
+          <td>Ужасный шрам. +1 к минимальному стрессу</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Подвернул лодыжку. [−] на проверки скорости</td>
+          <td>Кровь залила глаза. [−] пока не протрешь</td>
+          <td>Сломано ребро</td>
+          <td>Обожжен. [−] на следующее действие</td>
+          <td>Конечность изуродована</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Сотрясение. [−] на умственные задачи</td>
+          <td>Рваная рана. Кровотечение +1</td>
+          <td>Конечность раздроблена</td>
+          <td>Поражение осколками/Сильный ожог</td>
+          <td>Выколоты глаза</td>
+        </tr>
+        <tr>
+          <td>04</td>
+          <td>Нога или стопа сломана. [−] на проверки скорости</td>
+          <td>Глубокий порез. Кровотечение +2</td>
+          <td>Внутреннее кровотечение. Кровотечение +2</td>
+          <td>Обширные ожоги. −1d10 к силе</td>
+          <td>Вырван кусок плоти. −1d10 к силе</td>
+        </tr>
+        <tr>
+          <td>05</td>
+          <td rowspan="2">Средняя</td>
+          <td>Рука или кисть сломана. [−] для ручных задач</td>
+          <td>Пальцы рук/ног отрезаны. Кровотечение +3</td>
+          <td>Пуля застряла. Требуется операция</td>
+          <td>Критические ожоги. −2d10 к испытанию тела</td>
+          <td>Парализован ниже пояса</td>
+        </tr>
+        <tr>
+          <td>06</td>
+          <td>Сломана ключица. [−] на проверки силы</td>
+          <td>Рука/нога отрезаны. Кровотечение +4</td>
+          <td>Огнестрельное ранение в шею</td>
+          <td>Необходима пересадка кожи. −2d10 к испытанию тела</td>
+          <td>Конечность оторвана. Кровотечение +5</td>
+        </tr>
+        <tr>
+          <td>07</td>
+          <td rowspan="2">Тяжелая (испытание смерти через 1d10 раундов)</td>
+          <td>Перелом позвоночника. [−] на все проверки</td>
+          <td>Конечность отрезана. Кровотечение +5</td>
+          <td>Тяжелая кровопотеря. Кровотечение +4</td>
+          <td>Конечность горит. 2d10 урона в ход</td>
+          <td>Проткнут. Кровотечение +6</td>
+        </tr>
+        <tr>
+          <td>08</td>
+          <td>Перелом черепа. [−] на все проверки</td>
+          <td>Разрыв крупной артерии. Кровотечение +6</td>
+          <td>Пробито легкое. Кровотечение +5</td>
+          <td>Охвачен огнем. 3d10 урона в ход</td>
+          <td>Внутренности вываливаются. Кровотечение +7</td>
+        </tr>
+        <tr>
+          <td>09</td>
+          <td>Смертельная (испытание смерти)</td>
+          <td>Спина или шея сломаны. Испытание смерти</td>
+          <td>Перерезано горло или пробито сердце. Испытание смерти</td>
+          <td>Попадание в голову. Испытание смерти</td>
+          <td>Объят пламенем взрыва. Испытание смерти</td>
+          <td>Голова размозжена. Без испытания смерти. Ты умер.</td>
+        </tr>
+      </table>
+      <h2>СМЕРТЬ</h2>
+      <p>Если смерть кажется неизбежной, пусть твои последние мгновения будут полезны: спаси чью-то жизнь, разгадай важную тайну, выиграй время, чтобы другие смогли убежать. Если ты умираешь, смотритель делает испытание смерти: кладет 1d10 в стакан, встряхивает его и оставляет стоять на столе (не показывая кость). Как только кто-то потратит ход, проверяя твое состояние, раскрой кость и сравни результат с таблицей смерти. Руководствуйся здравым смыслом.</p>
+      <table style="text-align: center; margin-bottom: 1.5rem;">
+        <tr>
+          <th colspan="2" style="text-align: center; border-bottom: 2px solid white;">Смерть</th>
+        </tr>
+        <tr>
+          <th width="15%" style="text-align: center;">d10</th>
+          <th width="85%" style="text-align: center;">Результат</th>
+        </tr>
+        <tr>
+          <td>00</td>
+          <td style="text-align: left;"><strong>Ты без сознания и очнешься через 2d10 минут.</strong> Уменьши свое максимальное здоровье на 1d5.</td>
+        </tr>
+        <tr>
+          <td>01-02</td>
+          <td style="text-align: left;"><strong>Ты без сознания и умираешь.</strong> Без посторонней помощи ты умрешь через 1d5 раундов.</td>
+        </tr>
+        <tr>
+          <td>03-04</td>
+          <td style="text-align: left;"><strong>Ты в коме.</strong> Только чрезвычайные меры могут вернуть тебя к жизни.</td>
+        </tr>
+        <tr>
+          <td>05-09</td>
+          <td style="text-align: left;"><strong>Ты мертв.</strong> Создавай нового персонажа.</td>
+        </tr>
+      </table>
+      <table style="font-size: 1rem;">
+        <tr style="background-color: white; border: none;">
+            <td style="border: none; padding: 0;">
+                <a class="mobile" href='./contents.html'>Оглавление</a>
+            </td>
+            <td style="border: none; padding: 0;">
+                <a class="mobile" style="float: right;" href="range-and-distance.html">Расстояние и дистанция -></a>
+            </td>
+        </tr>
+      </table>
+    </article>
+  </main>
+  <script>showFooter()</script>
+</body>
+</html>

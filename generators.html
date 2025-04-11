@@ -45,7 +45,7 @@
             flex: 1 1 calc(50% - 10px);
         }
         .container {
-            display: flex; /* Включаем Flexbox */
+            display: flex; 
         }
 
         .left-block {
@@ -72,7 +72,7 @@
         font-family: 'Roboto Condensed';
         }
         .generate-button:hover {
-        background-color: #333; /* Темно-серый цвет при наведении */
+        background-color: #333; 
         }
     </style>
 </head>
@@ -85,7 +85,7 @@
             <div class="container">
                 <div class="left-block">
                     <img id="portrait" width="180">
-                    <button class="generate-button" onclick="generateCharacter()">Сгенерировать</button>
+                    <button id="generate-character-button" class="generate-button" onclick="generateCharacter()">Сгенерировать</button>
                 </div>
                 <div class="right-block">
                     <div class="section"><span class="bold">Имя</span><br><span id="name">-</span></div>
@@ -123,5 +123,13 @@
     </main>
     <script>showFooter()</script>
     <script>generateCharacter()</script>
+    <script>
+        document.getElementById('generate-character-button').addEventListener('click', function() {
+          gtag('event', 'click', {
+            'event_category': 'Button',
+            'event_label': 'Generate Character'
+          });
+        });
+    </script>
 </body>
 </html>

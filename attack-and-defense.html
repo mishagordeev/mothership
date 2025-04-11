@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>Mothership – Атака и защита</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1.0">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="./styles/style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EXTFXWKTX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1EXTFXWKTX');
+    </script>
+    <script src='./scripts/header_buttons_click.js'></script>
+    <script src="./scripts/show_footer.js"></script>
+</head>
+<body>
+  <script src='./scripts/header.js'></script> 
+  <script src='./scripts/side_nav.js'></script>
+  <main id="wrapper">
+    <script src='./scripts/menu.js'></script>
+    <article id="root">
+      <a class="mobile" href='./contents.html'>Оглавление</a>
+      <h1>Атака И ЗАЩИТА</h1>
+      <h2>КАК АТАКОВАТЬ?</h2>
+      <p>Соверши проверку боя. Если она успешна, брось кости урона оружия и вычти результат из здоровья противника. Если нет – ситуация ухудшается, и ты получаешь 1 пункт стресса.</p>
+      <!-- <p class="reference"><a class="internal" href="shore-leave.html">Подробнее об отпуске ></a></p> -->
+      <h2>УРОН</h2>
+      <p>Когда ты получаешь урон, вычти его из твоего здоровья. Если здоровье достигает нуля, получи рану и сделай бросок по таблице ран. После этого восстанови здоровье до максимума и вычти из него весь оставшийся урон. Когда твой персонаж получает последнюю рану, пройди испытание смерти.</p>
+      <!-- <p class="reference"><a class="internal" href="shore-leave.html">Подробнее об отпуске ></a></p> -->
+      <h2>БРОНЯ</h2>
+      <p>Персонажи игнорируют любой урон меньше значения пунктов брони (ПБ). Однако, если одна атака наносит урон больший или равный ПБ, броня разрушается и они получают весь оставшийся урон. Бронебойное (ББ) оружие игнорирует и разрушает броню любой успешной атакой. Некоторые виды брони имеют показатель снижения урона (СУ) – число, на которое всегда уменьшается получаемый урон (даже если броня разрушена или атака была бронебойной). Уменьшение урона всегда считается первым (до любой брони).</p>
+      <h2>УКРЫТИЕ</h2>
+      <p>Окружение может предоставить персонажу защиту, называемую укрытием. Оно, как и броня, может быть уничтожено, если получит урон больший или равный его ПБ. Укрытие обычно защищает только от дистанционных атак, но в некоторых ситуациях может помочь и в ближнем бою. Если ты стреляешь из-за укрытия, ты выходишь из под его защиты до начала своего следующего хода.</p>
+      <table style="text-align: center; margin-bottom: 1.5rem;">
+        <tr>
+          <th colspan="2" style="text-align: center; border-bottom: 2px solid white;">Укрытия</th>
+        </tr>
+        <tr>
+          <th width="50%" style="text-align: center;">Тип</th>
+          <th width="50%" style="text-align: center;">ПБ</th>
+        </tr>
+        <tr>
+          <td style="text-align: left;"><strong>НЕЗНАЧИТЕЛЬНОЕ УКРЫТИЕ</strong><br>Деревянная мебель/двери, щиты и т.д.</td>
+          <td>ПБ: 5</td>
+        </tr>
+        <tr>
+          <td style="text-align: left;"><strong>ЛЕГКОЕ УКРЫТИЕ</strong><br>Деревья, переборки, металлическая мебель и т.д.</td>
+          <td>ПБ: 10</td>
+        </tr>
+        <tr>
+          <td style="text-align: left;"><strong>НАДЕЖНОЕ УКРЫТИЕ</strong><br>Двери шлюзов, бетонные колонны, корабли и т.д.</td>
+          <td>СУ: 5<br>ПБ: 20</td>
+      </table>
+      <table style="font-size: 1rem;">
+        <tr style="background-color: white; border: none;">
+            <td style="border: none; padding: 0;">
+                <a class="mobile" href='./contents.html'>Оглавление</a>
+            </td>
+            <td style="border: none; padding: 0;">
+                <a class="mobile" style="float: right;" href="wounds-and-death.html">Раны и смерть -></a>
+            </td>
+        </tr>
+      </table>
+    </article>
+  </main>
+  <script>showFooter()</script>
+</body>
+</html>

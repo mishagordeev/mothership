@@ -38,6 +38,14 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    text-transform: lowercase;
+}
+
+h2::first-letter {
+    text-transform: uppercase;
+  }
+
 .categories {
     margin-top: 1.25rem;
     margin-bottom: 1.75rem;
@@ -113,7 +121,7 @@ main {
 
 .side_menu {
     background-color: #ddd; 
-    width: 230px; 
+    width: 245px; 
     position: fixed; 
     height: 100vh; 
     padding-top: 5rem;
@@ -216,8 +224,6 @@ ul li:before {
 ol {
     padding-inline-start: 2rem;
 }
-    
-table tr:nth-child(odd){background-color: #f2f2f2;}
 
 table ul {
     padding-inline-start: inherit;
