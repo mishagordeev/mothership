@@ -38,14 +38,6 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
-    text-transform: lowercase;
-}
-
-h2::first-letter {
-    text-transform: uppercase;
-  }
-
 .categories {
     margin-top: 1.25rem;
     margin-bottom: 1.75rem;
