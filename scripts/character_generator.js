@@ -1,5 +1,5 @@
 const marine = {
-    name: "Мопрех",
+    name: "Морпех",
     modificators: {
         combat: 10,
         body: 10,
