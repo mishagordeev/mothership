@@ -38,6 +38,11 @@ h1 {
     text-transform: uppercase;
 }
 
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
 .categories {
     margin-top: 1.25rem;
     margin-bottom: 1.75rem;
