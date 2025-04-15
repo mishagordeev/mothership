@@ -4,6 +4,7 @@ let sideNav =
 <ul>
 <li><a href='./creation.html'>Как создать персонажа</a></li>
 <li><a href='./loadouts.html'>Начальное снаряжение</a></li>
+<li><a href='./credits.html'>Кредиты</a></li>
 <li><a href='./trinkets.html'>Безделушки</a></li>
 <li><a href='./patches.html'>Нашивки</a></li>
 <li><a href='./equipment.html'>Предметы</a></li>
