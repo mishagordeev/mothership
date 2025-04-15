@@ -102,6 +102,12 @@ footer a:visited, header a:hover {
     text-align: right;
 }
 
+.inset {
+    border: 2px solid #000;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
 body {
     font-family: 'Roboto Condensed';
     margin: 0px;
