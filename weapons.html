@@ -49,552 +49,762 @@
       <article id="root">
         <a class="mobile" href='./contents.html'>Оглавление</a>
         <h1>Оружие</h1> 
-        <table style="margin-bottom: 1.5rem;" id="weapon">
+        <table class="desktop" style="text-align: center; margin-bottom: 1.5rem;">
           <tr>
-            <th width=33%>Безоружная атака</th>
-            <th width=33% style="text-align: center;"> </th>
-            <th width=33% style="text-align: right;"> </th>
+            <th colspan="7" style="text-align: center; border-bottom: 2px solid white;">ОРУЖИЕ</th>
           </tr>
           <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Вплотную</td>
+            <th width="16%" style="text-align: center;">Оружие</th>
+            <th width="12%" style="text-align: center;">Цена</th>
+            <th width="16%" style="text-align: center;">Дистанция</th>
+            <th width="12%" style="text-align: center;">Урон</th>
+            <th width="12%" style="text-align: center;">Выстрелы</th>
+            <th width="16%" style="text-align: center;">Раны</th>
+            <th width="16%" style="text-align: center;">Особенности</th>
           </tr>
           <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">1d5</td>
+            <td>Абордажный топор</td>
+            <td>150 Кр</td>
+            <td>Вплотную</td>
+            <td>2d10</td>
+            <td>Н/Д</td>
+            <td>Увечья [+]</td>
+            <td></td>
           </tr>
           <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Тупая</td>
-          </tr>
-        </table> 
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Боеприпасы</th>
-            <th width=33% style="text-align: center;"> </th>
-            <th width=33% style="text-align: right;">50 Кр</th>
+            <td>Безоружная атака</td>
+            <td>Бесплатно</td>
+            <td>Вплотную</td>
+            <td>1d5</td>
+            <td>Н/Д</td>
+            <td>Тупая</td>
+            <td></td>
           </tr>
           <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">За магазин или обойму</td>
-          </tr>
-        </table>        
-        <h2>Холодное оружие</h2> 
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Абордажный топор</th>
-            <th width=33% style="text-align: center;"> </th>
-            <th width=33% style="text-align: right;">150 Кр</th>
+            <td>Боевой дробовик</td>
+            <td>1400 Кр</td>
+            <td>Ближняя</td>
+            <td>4d10</td>
+            <td>4</td>
+            <td>Огнестрельная</td>
+            <td>1d10 урона на дальней дистанции или больше</td>
           </tr>
           <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Вплотную</td>
+            <td>Боеприпасы</td>
+            <td>50 Кр</td>
+            <td>Н/Д</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>За магазин или обойму</td>
           </tr>
           <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">2d10</td>
+            <td>Вибромачете</td>
+            <td>1 кКр</td>
+            <td>Вплотную</td>
+            <td>3d10 (ББ)</td>
+            <td>Н/Д</td>
+            <td>Кровотечение + увечья</td>
+            <td>Когда наносишь рану, сделай бросок по ОБЕИМ колонкам: кровотечение и увечья</td>
           </tr>
           <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Увечья [+]</td>
-          </tr>
-        </table> 
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Вибромачете</th>
-            <th width=33% style="text-align: center;"> </th>
-            <th width=33% style="text-align: right;">1 кКр</th>
+            <td>Гарпунное ружье</td>
+            <td>350 Кр</td>
+            <td>Ближняя</td>
+            <td>1d10 + 2d10 при извлечении</td>
+            <td>1</td>
+            <td>Кровотечение [+]</td>
+            <td>100 м микроволоконной нити. Испытание тела, чтобы извлечь</td>
           </tr>
           <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Вплотную</td>
+            <td>Гвоздомет</td>
+            <td>150 Кр</td>
+            <td>Ближняя</td>
+            <td>1d5</td>
+            <td>32</td>
+            <td>Кровотечение</td>
+            <td></td>
           </tr>
           <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">3d10 (ББ)</td>
+            <td>Импульсная винтовка</td>
+            <td>2,4 кКр</td>
+            <td>Дальняя</td>
+            <td>3d10</td>
+            <td>5</td>
+            <td>Огнестрельная</td>
+            <td></td>
           </tr>
           <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Кровотечение + увечья</td>
+            <td>Лазерный резак</td>
+            <td>1,2 кКр</td>
+            <td>Дальняя</td>
+            <td>1d100</td>
+            <td>6</td>
+            <td>Кровотечение [+] или увечья [+]</td>
+            <td>Двуручное. Тяжелое. 1 раунд для перезарядки между выстрелами</td>
           </tr>
           <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">Когда наносишь рану, сделай бросок по ОБЕИМ колонкам: кровотечение и увечья</td>
+            <td>Монтировка</td>
+            <td>25 Кр</td>
+            <td>Вплотную</td>
+            <td>1d5</td>
+            <td>Н/Д</td>
+            <td>Тупая</td>
+            <td>[+] на проверки силы для открытия заблокированных шлюзов, сдвигания тяжелых объектов и т. п.</td>
           </tr>
+          <tr>
+            <td>Огнемет</td>
+            <td>4 кКр</td>
+            <td>Ближняя</td>
+            <td>2d10</td>
+            <td>4</td>
+            <td>Огнем [+}</td>
+            <td>Испытание тела [−] или охвачен огнем (2d10 урона за раунд)</td>
+          </tr>
+          <tr>
+            <td>Осколочная граната</td>
+            <td>400 Кр/шт</td>
+            <td>Ближняя</td>
+            <td>3d10</td>
+            <td>1</td>
+            <td>Взрывом</td>
+            <td>При попадании наносит урон всем, находящимся рядом с целью</td>
+          </tr>
+          <tr>
+            <td>Пенная пушка</td>
+            <td>500 Кр</td>
+            <td>Ближняя</td>
+            <td>1</td>
+            <td>3</td>
+            <td>Тупая</td>
+            <td>Испытание тела, чтобы не приклеиться. Проверка силы [−], чтобы выбраться</td>
+          </tr>
+          <tr>
+            <td>Пистолет-пулемет</td>
+            <td>1 кКр</td>
+            <td>Дальняя</td>
+            <td>2d10</td>
+            <td>5</td>
+            <td>Огнестрельная</td>
+            <td>Можно стрелять одной рукой</td>
+          </tr>
+          <tr>
+            <td>Пулемет</td>
+            <td>4,5 кКр</td>
+            <td>Дальняя</td>
+            <td>4d10</td>
+            <td>5</td>
+            <td>Огнестрельная [+]</td>
+            <td>Двуручное. Тяжелое. Ствол можно повернуть, чтобы стрелять за угол</td>
+          </tr>
+          <tr>
+            <td>Револьвер</td>
+            <td>750 Кр</td>
+            <td>Ближняя</td>
+            <td>1d10+1</td>
+            <td>6</td>
+            <td>Огнестрельная</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Сварочный аппарат</td>
+            <td>250 Кр</td>
+            <td>Вплотную</td>
+            <td>1d10</td>
+            <td>Н/Д</td>
+            <td>Кровотечение</td>
+            <td>Может вскрывать двери шлюзов</td>
+          </tr>
+          <tr>
+            <td>Сигнальный пистолет</td>
+            <td>25 Кр</td>
+            <td>Дальняя</td>
+            <td>1d5</td>
+            <td>2</td>
+            <td>Огнем [−]</td>
+            <td>Яркая вспышка. Заметна и днем, и ночью, на дальней дистанции</td>
+          </tr>
+          <tr>
+            <td>Скальпель</td>
+            <td>50 Кр</td>
+            <td>Вплотную</td>
+            <td>1d5</td>
+            <td>Н/Д</td>
+            <td>Кровотечение [+]</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Смарт-винтовка</td>
+            <td>5 кКр</td>
+            <td>Максимальная</td>
+            <td>4d10 (ББ)</td>
+            <td>3</td>
+            <td>Огнестрельная [+]</td>
+            <td>[−] на проверку боя на ближней дистанции</td>
+          </tr>
+          <tr>
+            <td>Транквилизаторный пистолет</td>
+            <td>250 Кр</td>
+            <td>Ближняя</td>
+            <td>1d5</td>
+            <td>6</td>
+            <td>Тупая</td>
+            <td>При получении урона: испытание тела или 1d10 раундов без сознания</td>
+          </tr>
+          <tr>
+            <td>Шоковая дубинка</td>
+            <td>150 Кр</td>
+            <td>Вплотную</td>
+            <td>1d5</td>
+            <td>Н/Д</td>
+            <td>Тупая</td>
+            <td>Испытание тела или оглушен на 1 раунд</td>
         </table>
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Монтировка</th>
-            <th width=33% style="text-align: center;"> </th>
-            <th width=33% style="text-align: right;">25 Кр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Вплотную</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">1d5</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Тупая</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">[+] на проверки силы для открытия заблокированных шлюзов, сдвигания тяжелых объектов и т. п.</td>
-          </tr>
-        </table>
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Скальпель</th>
-            <th width=33% style="text-align: center;"> </th>
-            <th width=33% style="text-align: right;">50 Кр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Дальняя</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">1d5</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Кровотечение [+]</td>
-          </tr>
-        </table>
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Шоковая дубинка</th>
-            <th width=33% style="text-align: center;"> </th>
-            <th width=33% style="text-align: right;">150 Кр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Вплотную</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">1d5</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Тупая</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">Испытание тела или оглушен на 1 раунд</td>
-          </tr>
-        </table>
-        <h2>Огнестрельное оружие</h2> 
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Боевой дробовик</th>
-            <th width=33% style="text-align: center;">KANO X9</th>
-            <th width=33% style="text-align: right;">1,3 кКр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Ближняя</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">4d10</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">4</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Огнестрельная</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">1d10 урона на дальней дистанции и больше</td>
-          </tr>
-        </table>
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Импульсная винтовка</th>
-            <th width=33% style="text-align: center;">F20 «Арбитр»</th>
-            <th width=33% style="text-align: right;">2,4 кКр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Дальняя</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">3d10</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">5</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Огнестрельная</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2"> </td>
-          </tr>
-        </table>
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Пистолет-пулемет</th>
-            <th width=33% style="text-align: center;">ARMA 29</th>
-            <th width=33% style="text-align: right;">1 кКр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Дальняя</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">2d10</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">5</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Огнестрельная</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">Можно стрелять одной рукой</td>
-          </tr>
-        </table>
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Пулемет</th>
-            <th width=33% style="text-align: center;"> </th>
-            <th width=33% style="text-align: right;">4,5 кКр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Дальняя</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">4d10</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">5</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Огнестрельная [+]</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">Двуручное. Тяжелое. Ствол можно повернуть, чтобы стрелять за угол</td>
-          </tr>
-        </table>
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Револьвер</th>
-            <th width=33% style="text-align: center;">FN SLUG</th>
-            <th width=33% style="text-align: right;">750 Кр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Ближняя</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">1d10+1</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">6</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Огнестрельная</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2"> </td>
-          </tr>
-        </table>
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Сигнальный пистолет</th>
-            <th width=33% style="text-align: center;">PEABODY</th>
-            <th width=33% style="text-align: right;">25 Кр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Дальняя</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">1d5</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">2</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Огнем [−]</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">Яркая вспышка. Заметна и днем, и ночью, на дальней дистанции</td>
-          </tr>
-        </table>
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Смарт-винтовка</th>
-            <th width=33% style="text-align: center;">SK 10 SEEKER</th>
-            <th width=33% style="text-align: right;">5 кКр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Максимальная</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">4d10 (Бронебойный)</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">3</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Огнестрельная [+]</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">[−] на проверку боя на ближней дистанции</td>
-          </tr>
-        </table> 
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Транквилизаторный пистолет</th>
-            <th width=33% style="text-align: center;">D&C 7</th>
-            <th width=33% style="text-align: right;">250 Кр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Ближняя</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">1d5</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">6</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Тупая</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">При получении урона: испытание тела или 1d10 раундов без сознания</td>
-          </tr>
-        </table>
-        <h2>Метательное оружие</h2>
-        <table id="weapon">
-          <tr>
-            <th width=33%>Осколочная граната</th>
-            <th width=33% style="text-align: center;"> </th>
-            <th width=33% style="text-align: right;">400 Кр/шт</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Ближняя</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">3d10</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">1</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Взрывом</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">При попадании наносит урон всем, находящимся рядом с целью</td>
-          </tr>
-        </table>  
-        <h2>Промышленное оборудование</h2>   
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Гарпунное ружье</th>
-            <th width=33% style="text-align: center;">HAN-290</th>
-            <th width=33% style="text-align: right;">350 Кр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Ближняя</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">1d10 + 2d10 при извлечении</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">1</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Кровотечение [+]</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">100 м микроволоконной нити. Испытание тела, чтобы не запутаться.</td>
-          </tr>
-        </table> 
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Гвоздомет</th>
-            <th width=33% style="text-align: center;">ROSCO SS6</th>
-            <th width=33% style="text-align: right;">150 Кр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Ближняя</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">1d5</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">32</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Кровотечение</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2"> </td>
-          </tr>
-        </table>
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Лазерный резак</th>
-            <th width=33% style="text-align: center;">MNC MODE A</th>
-            <th width=33% style="text-align: right;">1,2 кКр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Дальняя</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">1d100</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">6</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Кровотечение [+] или Увечья [+]</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">Двуручное. Тяжелое. 1 раунд перезарядки между выстрелами.</td>
-          </tr>
-        </table>
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Огнемет</th>
-            <th width=33% style="text-align: center;">RAMHORN 1</th>
-            <th width=33% style="text-align: right;">4 кКр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Ближняя</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">2d10</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">4</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Огнем и взрывом [+]</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">Испытание тела [−] или охвачен огнем (2d10 урона за раунд).</td>
-          </tr>
-        </table>
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Пенная пушка</th>
-            <th width=33% style="text-align: center;">HALLS B SERIES</th>
-            <th width=33% style="text-align: right;">500 Кр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Ближняя (1 кв. м затвердевающей пены)</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">1</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">3</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Тупая</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">Испытание тела чтобы не приклеиться. Проверка силы  [−], чтобы выбраться.</td>
-          </tr>
-        </table>        
-        <table style="margin-bottom: 1.5rem;" id="weapon">
-          <tr>
-            <th width=33%>Сварочный аппарат</th>
-            <th width=33% style="text-align: center;">EVA MK II</th>
-            <th width=33% style="text-align: right;">250 Кр</th>
-          </tr>
-          <tr>
-            <td width=30%><b>Дистанция</b></td>
-            <td width=70% colspan="2">Вплотную</td>
-          </tr>
-          <tr>
-            <td><b>Урон</b></td>
-            <td colspan="2">1d10</td>
-          </tr>
-          <tr>
-            <td><b>Выстрелы</b></td>
-            <td colspan="2">∞</td>
-          </tr>
-          <tr>
-            <td><b>Рана</b></td>
-            <td colspan="2">Кровотечение</td>
-          </tr>
-          <tr>
-            <td><b>Особенности</b></td>
-            <td colspan="2">Может вскрывать двери шлюзов.</td>
-          </tr>
-        </table>
+
+        <div class="mobile">
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th colspan="3" width=33%>Безоружная атака</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Вплотную</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">1d5</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Тупая</td>
+            </tr>
+          </table> 
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Боеприпасы</th>
+              <th width=33% style="text-align: center;"> </th>
+              <th width=33% style="text-align: right;">50 Кр</th>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">За магазин или обойму</td>
+            </tr>
+          </table>        
+          <h2>Холодное оружие</h2> 
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th colspan="2" width=33%>Абордажный топор</th>
+              <th width=33% style="text-align: right;">150 Кр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Вплотную</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">2d10</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Увечья [+]</td>
+            </tr>
+          </table> 
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Вибромачете</th>
+              <th width=33% style="text-align: center;"> </th>
+              <th width=33% style="text-align: right;">1 кКр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Вплотную</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">3d10 (ББ)</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Кровотечение + увечья</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">Когда наносишь рану, сделай бросок по ОБЕИМ колонкам: кровотечение и увечья</td>
+            </tr>
+          </table>
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Монтировка</th>
+              <th width=33% style="text-align: center;"> </th>
+              <th width=33% style="text-align: right;">25 Кр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Вплотную</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">1d5</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Тупая</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">[+] на проверки силы для открытия заблокированных шлюзов, сдвигания тяжелых объектов и т. п.</td>
+            </tr>
+          </table>
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Скальпель</th>
+              <th width=33% style="text-align: center;"> </th>
+              <th width=33% style="text-align: right;">50 Кр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Дальняя</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">1d5</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Кровотечение [+]</td>
+            </tr>
+          </table>
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th colspan="2" width=33%>Шоковая дубинка</th>
+              <th width=33% style="text-align: right;">150 Кр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Вплотную</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">1d5</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Тупая</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">Испытание тела или оглушен на 1 раунд</td>
+            </tr>
+          </table>
+          <h2>Огнестрельное оружие</h2> 
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Боевой дробовик</th>
+              <th width=33% style="text-align: center;">KANO X9</th>
+              <th width=33% style="text-align: right;">1,3 кКр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Ближняя</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">4d10</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">4</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Огнестрельная</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">1d10 урона на дальней дистанции и больше</td>
+            </tr>
+          </table>
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Импульсная винтовка</th>
+              <th width=33% style="text-align: center;">F20 «Арбитр»</th>
+              <th width=33% style="text-align: right;">2,4 кКр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Дальняя</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">3d10</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">5</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Огнестрельная</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2"> </td>
+            </tr>
+          </table>
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Пистолет-пулемет</th>
+              <th width=33% style="text-align: center;">ARMA 29</th>
+              <th width=33% style="text-align: right;">1 кКр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Дальняя</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">2d10</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">5</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Огнестрельная</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">Можно стрелять одной рукой</td>
+            </tr>
+          </table>
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Пулемет</th>
+              <th width=33% style="text-align: center;"> </th>
+              <th width=33% style="text-align: right;">4,5 кКр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Дальняя</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">4d10</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">5</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Огнестрельная [+]</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">Двуручное. Тяжелое. Ствол можно повернуть, чтобы стрелять за угол</td>
+            </tr>
+          </table>
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Револьвер</th>
+              <th width=33% style="text-align: center;">FN SLUG</th>
+              <th width=33% style="text-align: right;">750 Кр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Ближняя</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">1d10+1</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">6</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Огнестрельная</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2"> </td>
+            </tr>
+          </table>
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Сигнальный пистолет</th>
+              <th width=33% style="text-align: center;">PEABODY</th>
+              <th width=33% style="text-align: right;">25 Кр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Дальняя</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">1d5</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">2</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Огнем [−]</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">Яркая вспышка. Заметна и днем, и ночью, на дальней дистанции</td>
+            </tr>
+          </table>
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Смарт-винтовка</th>
+              <th width=33% style="text-align: center;">SK 10 SEEKER</th>
+              <th width=33% style="text-align: right;">5 кКр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Максимальная</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">4d10 (Бронебойный)</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">3</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Огнестрельная [+]</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">[−] на проверку боя на ближней дистанции</td>
+            </tr>
+          </table> 
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Транквилизаторный пистолет</th>
+              <th width=33% style="text-align: center;">D&C 7</th>
+              <th width=33% style="text-align: right;">250 Кр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Ближняя</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">1d5</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">6</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Тупая</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">При получении урона: испытание тела или 1d10 раундов без сознания</td>
+            </tr>
+          </table>
+          <h2>Метательное оружие</h2>
+          <table id="weapon">
+            <tr>
+              <th width=33%>Осколочная граната</th>
+              <th width=33% style="text-align: center;"> </th>
+              <th width=33% style="text-align: right;">400 Кр/шт</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Ближняя</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">3d10</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">1</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Взрывом</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">При попадании наносит урон всем, находящимся рядом с целью</td>
+            </tr>
+          </table>  
+          <h2>Промышленное оборудование</h2>   
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Гарпунное ружье</th>
+              <th width=33% style="text-align: center;">HAN-290</th>
+              <th width=33% style="text-align: right;">350 Кр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Ближняя</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">1d10 + 2d10 при извлечении</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">1</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Кровотечение [+]</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">100 м микроволоконной нити. Испытание тела, чтобы не запутаться.</td>
+            </tr>
+          </table> 
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Гвоздомет</th>
+              <th width=33% style="text-align: center;">ROSCO SS6</th>
+              <th width=33% style="text-align: right;">150 Кр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Ближняя</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">1d5</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">32</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Кровотечение</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2"> </td>
+            </tr>
+          </table>
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Лазерный резак</th>
+              <th width=33% style="text-align: center;">MNC MODE A</th>
+              <th width=33% style="text-align: right;">1,2 кКр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Дальняя</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">1d100</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">6</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Кровотечение [+] или Увечья [+]</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">Двуручное. Тяжелое. 1 раунд перезарядки между выстрелами.</td>
+            </tr>
+          </table>
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Огнемет</th>
+              <th width=33% style="text-align: center;">RAMHORN 1</th>
+              <th width=33% style="text-align: right;">4 кКр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Ближняя</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">2d10</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">4</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Огнем и взрывом [+]</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">Испытание тела [−] или охвачен огнем (2d10 урона за раунд).</td>
+            </tr>
+          </table>
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Пенная пушка</th>
+              <th width=33% style="text-align: center;">HALLS B SERIES</th>
+              <th width=33% style="text-align: right;">500 Кр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Ближняя (1 кв. м затвердевающей пены)</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">1</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">3</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Тупая</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">Испытание тела чтобы не приклеиться. Проверка силы  [−], чтобы выбраться.</td>
+            </tr>
+          </table>        
+          <table style="margin-bottom: 1.5rem;" id="weapon">
+            <tr>
+              <th width=33%>Сварочный аппарат</th>
+              <th width=33% style="text-align: center;">EVA MK II</th>
+              <th width=33% style="text-align: right;">250 Кр</th>
+            </tr>
+            <tr>
+              <td width=30%><b>Дистанция</b></td>
+              <td width=70% colspan="2">Вплотную</td>
+            </tr>
+            <tr>
+              <td><b>Урон</b></td>
+              <td colspan="2">1d10</td>
+            </tr>
+            <tr>
+              <td><b>Выстрелы</b></td>
+              <td colspan="2">∞</td>
+            </tr>
+            <tr>
+              <td><b>Рана</b></td>
+              <td colspan="2">Кровотечение</td>
+            </tr>
+            <tr>
+              <td><b>Особенности</b></td>
+              <td colspan="2">Может вскрывать двери шлюзов.</td>
+            </tr>
+          </table>
+        </div>
         <div class="links">
           <a class="mobile" href='./contents.html'>Оглавление</a>
           <a class="desktop" href='equipment.html'><- Предметы</a>
