@@ -31,12 +31,12 @@
                   <li><b>Бой:</b> Работает точно так же, как и характеристика персонажа. Показывает, насколько хорошо они сражаются.</li>
                   <li><b>Инстинкты:</b> Это всеобъемлющая характеристика для Страха, Рассудка, Тела, Скорости, Интеллекта и всего остального.</li>
                   <li><b>Максимальные раны:</b> Наемники не отслеживают здоровье. Вместо этого, любой урон наносит одну рану. Когда количество ран сравнивается с показателем максимальных, они умирают.</li>
-                  <li><b>Лояльность:</b> Лояльность – это испытание, которое наемник проходит всякий раз, когда вынужден выбирать между твоей и личной выгодой. В случае успеха, он помогает тебе, иначе – себе. Каждый наемник начинает с лояльностью равной 2d10+10, которая вычисляется при его найме.</li>
+                  <li><b>Лояльность:</b> Лояльность – это испытание, которое наемник проходит всякий раз, когда вынужден выбирать между твоей и личной выгодой. В случае успеха, он помогает тебе, иначе – себе. <b>Каждый наемник начинает с лояльностью равной 2d10+10, которая вычисляется при его найме.</b></li>
                   <li><b>Мотивация:</b> Мотивация наемника всегда имеет приоритет перед всяким чувством верности команде. Не обязательно выбирать мотивацию для каждого наемника, достаточно определить ее для самых значимых.</li>
                 </ul>
                 <p>Эти упрощенные характеристики помогут упростить управление наемником. Наемники обычно слабее персонажей, так что старайся их защищать.</p>
                 <h2>Наем</h2>
-                <p>Наемники получают зарплату в начале каждого месяца. Вдобавок, они могут потребовать доплату за риск (1d5 месячных окладов) всякий раз, когда сталкиваются со смертельной опасностью. Неуплата или частичная оплата потребуют проверки лояльности [-]. Наконец, наемники всегда указывают бенефициара, который может получить все полагающиеся им выплаты в случае их смерти.</p>
+                <p>Наемники получают <b>зарплату</b> в начале каждого месяца. Вдобавок, они могут потребовать <b>доплату за риск</b> (1d5 месячных окладов) всякий раз, когда сталкиваются со смертельной опасностью. Неуплата или частичная оплата потребуют проверки лояльности [-]. Наконец, наемники всегда указывают бенефициара, который может получить все полагающиеся им выплаты в случае их смерти.</p>
       
                 <!-- <p>Больше о доплате за риск в Руководстве Смотрителя на стр. 48.2.</p> -->
                 
@@ -57,7 +57,7 @@
                   <h3>Запасные персонажи</h3>
                   <p style="margin-block-end: 0;">Из наемников получаются отличные запасные персонажи на случай, если твой персонаж умрет или иным образом станет недееспособным. Просто определи характеристики обычным способом, убрав инстинкты и перебросив бой. Новые значения могут быть хуже, чем прежние, однако у персонажа появятся навыки, которые помогут восполнить разницу.</p>
                 </div>
-                <table style="text-align: center; margin-bottom: 1.5rem;">
+                <table class="desktop" style="text-align: center; margin-bottom: 1.5rem;">
                   <tr>
                     <th colspan="7" style="text-align: center; border-bottom: 2px solid white; text-transform: uppercase;">Наемники</th>
                   </tr>
@@ -163,7 +163,7 @@
                   <tr>
                     <td>55-59</td>
                     <td>Морпех (Рядовой)</td>
-                    <td>1.5 кКр</td>
+                    <td>1,5 кКр</td>
                     <td>30</td>
                     <td>25</td>
                     <td>2</td>
@@ -190,7 +190,7 @@
                   <tr>
                     <td>70-74</td>
                     <td>Поселенец</td>
-                    <td>1.5 кКр</td>
+                    <td>1,5 кКр</td>
                     <td>25</td>
                     <td>25</td>
                     <td>1</td>
@@ -250,11 +250,276 @@
                     <td>2</td>
                     <td>Втайне является разыскиваемым серийным убийцей.</td>
                   </tr>
+                </table>
+                <div class="mobile">
+                  <table style="text-align: center; margin-bottom: 1.5rem;">
+                    <tr>
+                      <th colspan="7" style="text-align: center; border-bottom: 2px solid white; text-transform: uppercase;">Наемники</th>
+                    </tr>
+                    <tr>
+                      <th width="10%" style="text-align: center;">d100</th>
+                      <th width="20%" style="text-align: center;">Профессия</th>
+                      <th width="10%" style="text-align: center;">Зарплата</th>
+                      <th width="10%" style="text-align: center;">Б</th>
+                      <th width="10%" style="text-align: center;">И</th>
+                      <th width="10%" style="text-align: center;">Р</th>
+                    </tr>
+                    <tr>
+                      <td>0</td>
+                      <td style="text-align: left;">Археолог</td>
+                      <td>6 кКр</td>
+                      <td>20</td>
+                      <td>15</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>01-09</td>
+                      <td style="text-align: left;">Астероидный шахтер</td>
+                      <td>2 кКр</td>
+                      <td>25</td>
+                      <td>25</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>10-19</td>
+                      <td style="text-align: left;">Андроид</td>
+                      <td>6 кКр</td>
+                      <td>20</td>
+                      <td>35</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>20-24</td>
+                      <td style="text-align: left;">Телохранитель</td>
+                      <td>2 кКр</td>
+                      <td>30</td>
+                      <td>25</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>25-29</td>
+                      <td style="text-align: left;">Капитан</td>
+                      <td>10 кКр</td>
+                      <td>30</td>
+                      <td>40</td>
+                      <td>3</td>
+                    </tr>
+                    <tr>
+                      <td>30-34</td>
+                      <td style="text-align: left;">Священник</td>
+                      <td>750 Кр</td>
+                      <td>10</td>
+                      <td>20</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>35-39</td>
+                      <td style="text-align: left;">Корпоративный посредник</td>
+                      <td>24 кКр</td>
+                      <td>15</td>
+                      <td>30</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>40-44</td>
+                      <td style="text-align: left;">Врач</td>
+                      <td>8 кКр</td>
+                      <td>15</td>
+                      <td>25</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>45-49</td>
+                      <td style="text-align: left;">Инженер</td>
+                      <td>7 кКр</td>
+                      <td>20</td>
+                      <td>25</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>50-54</td>
+                      <td style="text-align: left;">Хакер</td>
+                      <td>8 кКр</td>
+                      <td>15</td>
+                      <td>30</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>55-59</td>
+                      <td style="text-align: left;">Морпех (Рядовой)</td>
+                      <td>1,5 кКр</td>
+                      <td>30</td>
+                      <td>25</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>60-64</td>
+                      <td style="text-align: left;">Морпех (Офицер)</td>
+                      <td>3.5 кКр</td>
+                      <td>35</td>
+                      <td>35</td>
+                      <td>3</td>
+                    </tr>
+                    <tr>
+                      <td>65-69</td>
+                      <td style="text-align: left;">Пилот</td>
+                      <td>3 кКр</td>
+                      <td>15</td>
+                      <td>25</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>70-74</td>
+                      <td style="text-align: left;">Поселенец</td>
+                      <td>1,5 кКр</td>
+                      <td>25</td>
+                      <td>25</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>75-79</td>
+                      <td style="text-align: left;">Ученый</td>
+                      <td>4 кКр</td>
+                      <td>15</td>
+                      <td>10</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>80-84</td>
+                      <td style="text-align: left;">Тренер по выживанию</td>
+                      <td>3 кКр</td>
+                      <td>30</td>
+                      <td>35</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>85-89</td>
+                      <td style="text-align: left;">Хирург</td>
+                      <td>12 кКр</td>
+                      <td>15</td>
+                      <td>20</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>90-94</td>
+                      <td style="text-align: left;">Техник</td>
+                      <td>2 кКр</td>
+                      <td>25</td>
+                      <td>25</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>95-98</td>
+                      <td style="text-align: left;">Психотерапевт</td>
+                      <td>3 кКр</td>
+                      <td>10</td>
+                      <td>20</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>99</td>
+                      <td style="text-align: left;">Беспризорник</td>
+                      <td>100 Кр</td>
+                      <td>30</td>
+                      <td>40</td>
+                      <td>2</td>
+                    </tr>
+                  </table>   
+                  
+                  <table style="text-align: center; margin-bottom: 1.5rem;">
+                    <tr>
+                      <th colspan="2" style="text-align: center; border-bottom: 2px solid white; text-transform: uppercase;">Мотивация</th>
+                    </tr>
+                    <tr>
+                      <th width="10%" style="text-align: center;">d100</th>
+                      <th width="30%" style="text-align: center;">Вариант мотивации</th>
+                    </tr>
+                    <tr>
+                      <td>0</td>
+                      <td style="text-align: left;">Тайно расследует заговор Корпорации.</td>
+                    </tr>
+                    <tr>
+                      <td>01-09</td>
+                      <td style="text-align: left;">Отправляет деньги семье.</td>
+                    </tr>
+                    <tr>
+                      <td>10-19</td>
+                      <td style="text-align: left;">Остро нуждается в выплате долга кредитору.</td>
+                    </tr>
+                    <tr>
+                      <td>20-24</td>
+                      <td style="text-align: left;">Не может долго оставаться на одном месте, беспокойный.</td>
+                    </tr>
+                    <tr>
+                      <td>25-29</td>
+                      <td style="text-align: left;">Слышит голоса в голове, которые не может объяснить.</td>
+                    </tr>
+                    <tr>
+                      <td>30-34</td>
+                      <td style="text-align: left;">Использует вас или ваш корабль, чтобы перевозить контрабанду.</td>
+                    </tr>
+                    <tr>
+                      <td>35-39</td>
+                      <td style="text-align: left;">Месть.</td>
+                    </tr>
+                    <tr>
+                      <td>40-44</td>
+                      <td style="text-align: left;">На самом деле аферист и помимо этого ничего не умеет.</td>
+                    </tr>
+                    <tr>
+                      <td>45-49</td>
+                      <td style="text-align: left;">Оплачивает медицинские счета для близкого человека.</td>
+                    </tr>
+                    <tr>
+                      <td>50-54</td>
+                      <td style="text-align: left;">Втайне шпион организации конкурента.</td>
+                    </tr>
+                    <tr>
+                      <td>55-59</td>
+                      <td style="text-align: left;">Должен оплатить залог или штраф.</td>
+                    </tr>
+                    <tr>
+                      <td>60-64</td>
+                      <td style="text-align: left;">Агент тайной полиции, под прикрытием расследующий деятельность вашего экипажа.</td>
+                    </tr>
+                    <tr>
+                      <td>65-69</td>
+                      <td style="text-align: left;">Крупно задолжал криминальному синдикату.</td>
+                    </tr>
+                    <tr>
+                      <td>70-74</td>
+                      <td style="text-align: left;">Сбежал с последней работы, прихватив денег.</td>
+                    </tr>
+                    <tr>
+                      <td>75-79</td>
+                      <td style="text-align: left;">Член его семьи в заложниках и нуждается в выкупе.</td>
+                    </tr>
+                    <tr>
+                      <td>80-84</td>
+                      <td style="text-align: left;">Втайне является охотником за головами, преследующим ваш экипаж.</td>
+                    </tr>
+                    <tr>
+                      <td>85-89</td>
+                      <td style="text-align: left;">Ищет достойной и почетной смерти.</td>
+                    </tr>
+                    <tr>
+                      <td>90-94</td>
+                      <td style="text-align: left;">Переносчик смертельной инфекции. Не знает об этом.</td>
+                    </tr>
+                    <tr>
+                      <td>95-98</td>
+                      <td style="text-align: left;">Сбежал с корпоративной исследовательской станции.</td>
+                    </tr>
+                    <tr>
+                      <td>99</td>
+                      <td style="text-align: left;">Втайне является разыскиваемым серийным убийцей.</td>
+                    </tr>
                   </table>
-                  <div class="links">
-                    <a class="mobile" href='./contents.html'>Оглавление</a>
-                    <a class="desktop" href='shore-leave.html'><- Отпуск</a>
-                  </div>
+                </div>
+                <div class="links">
+                  <a class="mobile" href='./contents.html'>Оглавление</a>
+                  <a class="desktop" href='shore-leave.html'><- Отпуск</a>
+                </div>
       </article>
       </main>
     <script>showFooter()</script>
