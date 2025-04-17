@@ -87,6 +87,14 @@
                     <img id="portrait" width="180">
                     <button id="generate-character-button" class="generate-button" onclick="generateCharacter()">Сгенерировать</button>
                 </div>
+                <script>
+                    document.getElementById("generate-character-button").addEventListener("click", function() {
+                      gtag("event", "button_click", {
+                        button_name: "generate-character",
+                        page_location: window.location.href
+                      });
+                    });
+                </script>
                 <div class="right-block">
                     <div class="section"><span class="bold">Имя</span><br><span id="name">-</span></div>
                     <div class="section"><span class="bold">Класс</span><br><span id="class">-</span></div>
