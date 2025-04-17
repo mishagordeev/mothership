@@ -85,7 +85,7 @@
             <div class="container">
                 <div class="left-block">
                     <img id="portrait" width="180">
-                    <button id="generate-character-button" class="generate-button" onclick="generateCharacter()">Сгенерировать</button>
+                    <button id="generate-character-button" class="generate-button">Сгенерировать</button>
                 </div>
                 <script>
                     document.getElementById("generate-character-button").addEventListener("click", function() {
@@ -94,6 +94,7 @@
                         page_location: window.location.href
                       });
                       console.log("generate click")
+                      generateCharacter()
                     });
                 </script>
                 <div class="right-block">
@@ -132,13 +133,5 @@
     </main>
     <script>showFooter()</script>
     <script>generateCharacter()</script>
-    <script>
-        document.getElementById('generate-character-button').addEventListener('click', function() {
-          gtag('event', 'click', {
-            'event_category': 'Button',
-            'event_label': 'Generate Character'
-          });
-        });
-    </script>
 </body>
 </html>
