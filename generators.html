@@ -88,13 +88,15 @@
                     <button id="generate-character-button" class="generate-button">Сгенерировать</button>
                 </div>
                 <script>
-                    document.getElementById("generate-character-button").addEventListener("click", function() {
-                      gtag("event", "button_click", {
-                        button_name: "generate-character",
-                        page_location: window.location.href
-                      });
-                      console.log("generate click")
-                      generateCharacter()
+                    document.addEventListener("DOMContentLoaded", function() {
+                        document.getElementById("generate-character-button").addEventListener("click", function() {
+                        gtag("event", "button_click", {
+                            button_name: "generate-character",
+                            page_location: window.location.href
+                        });
+                        console.log("generate click")
+                        generateCharacter()
+                        });
                     });
                 </script>
                 <div class="right-block">
