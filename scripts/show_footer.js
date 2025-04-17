@@ -26,7 +26,7 @@ function showFooter() {
                     Присоединяйся к сообществу 
                 </p> 
                 <p style="padding-top: 12px;">
-                    <a href='https://discord.gg/CNmnVHRazJ' target='_blank'><img src="../images/discord.svg"></a>
+                    <a href='https://discord.gg/CNmnVHRazJ' target='_blank'><img src="/images/discord.svg"></a>
                 </p> 
                 <br>      
             </div>  
