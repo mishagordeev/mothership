@@ -20,14 +20,16 @@
         .bold {
             font-weight: bold;
         }
+
+        .portrait {
+            height: 242px; 
+            width: 180px;
+            object-position: bottom;
+        }
         .stats-container {
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            padding-bottom: 10px;
-            border-bottom: 1px solid rgba(0, 0, 0, .2);
         }
         .border-container {
             margin-bottom: 10px;
@@ -36,29 +38,36 @@
         }
         .stat-box {
             flex: 1 1 calc(25% - 10px);
-            text-align: left;
         }
-        .stat-box.wide {
-            flex: 1 1 calc(25% - 10px);
-        }
-        .stat-box.full {
-            flex: 1 1 calc(50% - 10px);
-        }
+
         .container {
-            display: flex; 
+            display: flex;
+            flex-direction: column;
         }
 
         .left-block {
-            min-width: 200px;
-            max-width: 200px;
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+        }
+
+        .common-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end; 
+            width: 100%;  
+            row-gap: 20px;        
         }
 
         .right-block {
-            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
         }
+
         .section {
             margin-bottom: 10px;
         }
+        
         .generate-button {
         width: 180px;
         padding: 10px; 
@@ -71,6 +80,7 @@
         font-weight: bold;
         font-family: 'Roboto Condensed';
         }
+
         .generate-button:hover {
         background-color: #333; 
         }
@@ -83,9 +93,30 @@
         <article id="root">
             <h1>Генератор персонажа</h1>
             <div class="container">
-                <div class="left-block">
-                    <img id="portrait" width="180">
-                    <button id="generate-character-button" class="generate-button">Сгенерировать</button>
+                <div class="left-block border-container">
+                    <div>
+                        <img class="portrait" id="portrait">
+                    </div>
+                    <div class="common-info">
+                        <div>
+                            <div class="section"><span class="bold">Имя</span><br><span id="name">-</span></div>
+                            <div class="section"><span class="bold">Класс</span><br><span id="class">-</span></div>
+                            <button id="generate-character-button" class="generate-button">Сгенерировать</button>
+                        </div>
+                        <div class="stats-container">
+                                
+                                <div class="stat-box"><span class="bold">Сила</span><br><span id="strength">-</span></div>
+                                <div class="stat-box"><span class="bold">Скорость</span><br><span id="speed">-</span></div>
+                                <div class="stat-box"><span class="bold">Интеллект</span><br><span id="intellect">-</span></div>
+                                <div class="stat-box"><span class="bold">Бой</span><br><span id="combat">-</span></div>
+                                
+                                <div class="stat-box"><span class="bold">Рассудок</span><br><span id="sanity">-</span></div>
+                                <div class="stat-box"><span class="bold">Страх</span><br><span id="fear">-</span></div>
+                                <div class="stat-box"><span class="bold">Тело</span><br><span id="body">-</span></div>
+                                <div class="stat-box"></div>
+                        </div>
+                    </div>
+
                 </div>
                 <script>
                     document.addEventListener("DOMContentLoaded", function() {
@@ -100,26 +131,17 @@
                     });
                 </script>
                 <div class="right-block">
-                    <div class="section"><span class="bold">Имя</span><br><span id="name">-</span></div>
-                    <div class="section"><span class="bold">Класс</span><br><span id="class">-</span></div>
-                    
-                    <div class="stats-container">
-                            
-                            <div class="stat-box"><span class="bold">Сила</span><br><span id="strength">-</span></div>
-                            <div class="stat-box"><span class="bold">Скорость</span><br><span id="speed">-</span></div>
-                            <div class="stat-box"><span class="bold">Интеллект</span><br><span id="intellect">-</span></div>
-                            <div class="stat-box"><span class="bold">Бой</span><br><span id="combat">-</span></div>
-                            
-                            <div class="stat-box wide"><span class="bold">Рассудок</span><br><span id="sanity">-</span></div>
-                            <div class="stat-box wide"><span class="bold">Страх</span><br><span id="fear">-</span></div>
-                            <div class="stat-box wide"><span class="bold">Тело</span><br><span id="body">-</span></div>
-                            <div class="stat-box wide"></div>
-                    </div>
-                    <div class="stats-container">
-                        <div class="stat-box full"><span class="bold">Раны (Здоровье)</span><br><span id="wounds"></span> (<span id="health"></span>)</div>
-                        <div class="stat-box full"><span class="bold">Стресс (Минимум)</span><br><span id="stress"></span> (2)</div>
-                        <div><span class="bold">Реакция на психологическую травму</span><br><span id="trauma_response">-</span></div>
-                        
+
+                    <div class="border-container">
+                        <div style="display: flex; flex-direction: row; margin-bottom: 10px;">
+                            <div class="stat-box"><span class="bold">Раны (Здоровье)</span><br><span id="wounds"></span> (<span id="health"></span>)</div>
+                            <div class="stat-box"><span class="bold">Стресс (Минимум)</span><br><span id="stress"></span> (2)</div>
+                            <div class="stat-box"></div>
+                            <div class="stat-box"></div>
+                        </div>
+                        <div>
+                            <span class="bold">Реакция на психологическую травму</span><br><span id="trauma_response">-</span>
+                        </div>
                     </div>
                     
                     <div class="border-container"><span class="bold">Навыки</span><br><span id="skills">-</span></div>
@@ -128,6 +150,7 @@
                     <div class="section"><span class="bold">Безделушка</span><br><span id="trinket">-</span></div>
                     <div class="section"><span class="bold">Нашивка</span><br><span id="patch">-</span></div>
                     <div class="section"><span class="bold">Кредиты</span><br><span id="credits">-</span></div>
+                    
                 </div>
 
             </div>
