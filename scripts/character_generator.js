@@ -31,8 +31,8 @@ const marine = {
         "Усиленный бронекостюм (ПБ 10), Пулемет (1 короб патронов), Тактический дисплей",
     ],
     potraits: {
-        male: ["SFCP 1 01", "SFCP 1 03", "SFCP 1 04", "SFCP 1 05", "SFCP 1 07", "SFCP 1 09", "SFCP 1 10", "SFCP 1 11", "SFCP 1 12", "SFCP 1 13", "SFCP 1 15", "SFCP 1 17", "SFCP 1 19", "SFCP 1 20", "SFCP 1 21", "SFCP 1 22", "SFCP 1 23", "SFCP 1 25", "SFCP 1 26", "SFCP 1 27", "SFCP 1 29", "SFCP 1 31", "SFCP 1 32", "SFCP 1 33", "SFCP 1 35", "SFCP 1 36", "SFCP 1 37", "SFCP 1 40", "SFCP 1 41", "SFCP 1 43", "SFCP 1 45", "SFCP 1 47", "SFCP 1 48", "SFCP 1 49", "SFCP 1 51", "SFCP 1 53", "SFCP 1 55", "SFCP 1 57", "SFCP 1 58", "SFCP 1 59", "SFCP 1 61", "SFCP 1 63", "SFCP 1 64", "SFCP 1 65", "SFCP 1 67", "SFCP 1 68", "SFCP 1 69", "SFCP 1 71", "SFCP 1 74", "SFCP 1 75", "SFCP 1 77", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 81", "SFCP 1 83", "SFCP 1 84", "SFCP 1 85", "SFCP 1 87", "SFCP 1 89", "SFCP 1 90", "SFCP 1 91", "SFCP 1 93", "SFCP 1 94", "SFCP 1 95", "SFCP 1 97", "SFCP 1 98", "SFCP 1 99", "SFCP 1-101", "SFCP 1-103", "SFCP 1-105", "SFCP 1-106", "SFCP 1-107", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-115", "SFCP 1-116", "SFCP 1-119"],
-        female: ["SFCP 1 65", "SFCP 1 67", "SFCP 1 68", "SFCP 1 69", "SFCP 1 71", "SFCP 1 74", "SFCP 1 75", "SFCP 1 77", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 81", "SFCP 1 83", "SFCP 1 84", "SFCP 1 85", "SFCP 1 87", "SFCP 1 89", "SFCP 1 90", "SFCP 1 91", "SFCP 1 93", "SFCP 1 94", "SFCP 1 95", "SFCP 1 97", "SFCP 1 98", "SFCP 1 99", "SFCP 1-101", "SFCP 1-103", "SFCP 1-105", "SFCP 1-106", "SFCP 1-107", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-115", "SFCP 1-116", "SFCP 1-119"]
+        male: ["SFCP 1 01", "SFCP 1 03", "SFCP 1 04", "SFCP 1 05", "SFCP 1 06", "SFCP 1 07", "SFCP 1 08", "SFCP 1 09", "SFCP 1 11", "SFCP 1 12", "SFCP 1 13", "SFCP 1 14", "SFCP 1 15", "SFCP 1 17", "SFCP 1 18", "SFCP 1 19", "SFCP 1 20", "SFCP 1 21", "SFCP 1 22", "SFCP 1 23", "SFCP 1 24", "SFCP 1 25", "SFCP 1 27", "SFCP 1 28", "SFCP 1 29", "SFCP 1 30", "SFCP 1 31", "SFCP 1 32", "SFCP 1 33", "SFCP 1 34", "SFCP 1 35", "SFCP 1 36", "SFCP 1 37", "SFCP 1 39", "SFCP 1 40", "SFCP 1 41", "SFCP 1 42", "SFCP 1 43", "SFCP 1 44", "SFCP 1 47", "SFCP 1 48", "SFCP 1 49", "SFCP 1 50", "SFCP 1 51", "SFCP 1 52", "SFCP 1 53", "SFCP 1 54", "SFCP 1 55", "SFCP 1 57", "SFCP 1 58", "SFCP 1 59", "SFCP 1 61", "SFCP 1 62", "SFCP 1 63", "SFCP 1 64", "SFCP 1 65", "SFCP 1 66", "SFCP 1 67", "SFCP 1 68", "SFCP 1 69", "SFCP 1 71", "SFCP 1 73", "SFCP 1 74", "SFCP 1 75", "SFCP 1 77", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 81", "SFCP 1 82", "SFCP 1 83", "SFCP 1 84", "SFCP 1 85", "SFCP 1 87", "SFCP 1 88", "SFCP 1 89", "SFCP 1 90", "SFCP 1 91", "SFCP 1 92", "SFCP 1 93", "SFCP 1 94", "SFCP 1 95", "SFCP 1 96", "SFCP 1 97", "SFCP 1 98", "SFCP 1 99", "SFCP 1-101", "SFCP 1-102", "SFCP 1-103", "SFCP 1-104", "SFCP 1-105", "SFCP 1-106", "SFCP 1-107", "SFCP 1-108", "SFCP 1-109", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-114", "SFCP 1-115", "SFCP 1-116", "SFCP 1-117", "SFCP 1-118", "SFCP 1-119", "SFCP 1-120"],
+        female: ["SFCP 1 01", "SFCP 1 02", "SFCP 1 06", "SFCP 1 08", "SFCP 1 100", "SFCP 1 14", "SFCP 1 15", "SFCP 1 16", "SFCP 1 18", "SFCP 1 22", "SFCP 1 24", "SFCP 1 28", "SFCP 1 33", "SFCP 1 34", "SFCP 1 38", "SFCP 1 42", "SFCP 1 44", "SFCP 1 46", "SFCP 1 50", "SFCP 1 52", "SFCP 1 54", "SFCP 1 56", "SFCP 1 57", "SFCP 1 58", "SFCP 1 60", "SFCP 1 62", "SFCP 1 66", "SFCP 1 70", "SFCP 1 72", "SFCP 1 73", "SFCP 1 74", "SFCP 1 76", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 82", "SFCP 1 85", "SFCP 1 86", "SFCP 1 88", "SFCP 1 91", "SFCP 1 92", "SFCP 1 96", "SFCP 1-101", "SFCP 1-104", "SFCP 1-106", "SFCP 1-108", "SFCP 1-109", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-114", "SFCP 1-115", "SFCP 1-117", "SFCP 1-118", "SFCP 1-119", "SFCP 1-120"]
     }
 }
 const android = {
@@ -72,8 +72,8 @@ const android = {
         "Корпоративная форма (ПБ 1), Корпоративная карта с VIP доступом",
     ],
     potraits: {
-        male: ["SFCP 1 01", "SFCP 1 03", "SFCP 1 04", "SFCP 1 05", "SFCP 1 07", "SFCP 1 09", "SFCP 1 10", "SFCP 1 11", "SFCP 1 12", "SFCP 1 13", "SFCP 1 15", "SFCP 1 17", "SFCP 1 19", "SFCP 1 20", "SFCP 1 21", "SFCP 1 22", "SFCP 1 23", "SFCP 1 25", "SFCP 1 26", "SFCP 1 27", "SFCP 1 29", "SFCP 1 31", "SFCP 1 32", "SFCP 1 33", "SFCP 1 35", "SFCP 1 36", "SFCP 1 37", "SFCP 1 40", "SFCP 1 41", "SFCP 1 43", "SFCP 1 45", "SFCP 1 47", "SFCP 1 48", "SFCP 1 49", "SFCP 1 51", "SFCP 1 53", "SFCP 1 55", "SFCP 1 57", "SFCP 1 58", "SFCP 1 59", "SFCP 1 61", "SFCP 1 63", "SFCP 1 64", "SFCP 1 65", "SFCP 1 67", "SFCP 1 68", "SFCP 1 69", "SFCP 1 71", "SFCP 1 74", "SFCP 1 75", "SFCP 1 77", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 81", "SFCP 1 83", "SFCP 1 84", "SFCP 1 85", "SFCP 1 87", "SFCP 1 89", "SFCP 1 90", "SFCP 1 91", "SFCP 1 93", "SFCP 1 94", "SFCP 1 95", "SFCP 1 97", "SFCP 1 98", "SFCP 1 99", "SFCP 1-101", "SFCP 1-103", "SFCP 1-105", "SFCP 1-106", "SFCP 1-107", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-115", "SFCP 1-116", "SFCP 1-119"],
-        female: ["SFCP 1 65", "SFCP 1 67", "SFCP 1 68", "SFCP 1 69", "SFCP 1 71", "SFCP 1 74", "SFCP 1 75", "SFCP 1 77", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 81", "SFCP 1 83", "SFCP 1 84", "SFCP 1 85", "SFCP 1 87", "SFCP 1 89", "SFCP 1 90", "SFCP 1 91", "SFCP 1 93", "SFCP 1 94", "SFCP 1 95", "SFCP 1 97", "SFCP 1 98", "SFCP 1 99", "SFCP 1-101", "SFCP 1-103", "SFCP 1-105", "SFCP 1-106", "SFCP 1-107", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-115", "SFCP 1-116", "SFCP 1-119"]
+        male: ["SFCP 1 01", "SFCP 1 03", "SFCP 1 04", "SFCP 1 05", "SFCP 1 06", "SFCP 1 07", "SFCP 1 08", "SFCP 1 09", "SFCP 1 10", "SFCP 1 11", "SFCP 1 12", "SFCP 1 13", "SFCP 1 14", "SFCP 1 15", "SFCP 1 17", "SFCP 1 18", "SFCP 1 19", "SFCP 1 20", "SFCP 1 21", "SFCP 1 22", "SFCP 1 23", "SFCP 1 24", "SFCP 1 25", "SFCP 1 26", "SFCP 1 27", "SFCP 1 28", "SFCP 1 29", "SFCP 1 30", "SFCP 1 31", "SFCP 1 32", "SFCP 1 33", "SFCP 1 34", "SFCP 1 35", "SFCP 1 36", "SFCP 1 37", "SFCP 1 39", "SFCP 1 40", "SFCP 1 41", "SFCP 1 42", "SFCP 1 43", "SFCP 1 44", "SFCP 1 45", "SFCP 1 47", "SFCP 1 48", "SFCP 1 49", "SFCP 1 50", "SFCP 1 51", "SFCP 1 52", "SFCP 1 53", "SFCP 1 54", "SFCP 1 55", "SFCP 1 57", "SFCP 1 58", "SFCP 1 59", "SFCP 1 61", "SFCP 1 62", "SFCP 1 63", "SFCP 1 64", "SFCP 1 65", "SFCP 1 66", "SFCP 1 67", "SFCP 1 68", "SFCP 1 69", "SFCP 1 71", "SFCP 1 73", "SFCP 1 74", "SFCP 1 75", "SFCP 1 77", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 81", "SFCP 1 82", "SFCP 1 83", "SFCP 1 84", "SFCP 1 85", "SFCP 1 87", "SFCP 1 88", "SFCP 1 89", "SFCP 1 90", "SFCP 1 91", "SFCP 1 92", "SFCP 1 93", "SFCP 1 94", "SFCP 1 95", "SFCP 1 96", "SFCP 1 97", "SFCP 1 98", "SFCP 1 99", "SFCP 1-101", "SFCP 1-102", "SFCP 1-103", "SFCP 1-104", "SFCP 1-105", "SFCP 1-106", "SFCP 1-107", "SFCP 1-108", "SFCP 1-109", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-114", "SFCP 1-115", "SFCP 1-116", "SFCP 1-117", "SFCP 1-118", "SFCP 1-119", "SFCP 1-120"],
+        female: ["SFCP 1 01", "SFCP 1 02", "SFCP 1 06", "SFCP 1 08", "SFCP 1 10", "SFCP 1 100", "SFCP 1 14", "SFCP 1 15", "SFCP 1 16", "SFCP 1 18", "SFCP 1 22", "SFCP 1 24", "SFCP 1 26", "SFCP 1 28", "SFCP 1 33", "SFCP 1 34", "SFCP 1 38", "SFCP 1 42", "SFCP 1 44", "SFCP 1 45", "SFCP 1 46", "SFCP 1 50", "SFCP 1 52", "SFCP 1 54", "SFCP 1 56", "SFCP 1 57", "SFCP 1 58", "SFCP 1 60", "SFCP 1 62", "SFCP 1 66", "SFCP 1 70", "SFCP 1 72", "SFCP 1 73", "SFCP 1 74", "SFCP 1 76", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 82", "SFCP 1 85", "SFCP 1 86", "SFCP 1 88", "SFCP 1 91", "SFCP 1 92", "SFCP 1 96", "SFCP 1-101", "SFCP 1-104", "SFCP 1-106", "SFCP 1-108", "SFCP 1-109", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-114", "SFCP 1-115", "SFCP 1-117", "SFCP 1-118", "SFCP 1-119", "SFCP 1-120"]
     }
 }
 const scientist = {
@@ -202,8 +202,8 @@ const scientist = {
         "Гражданская одежда (ПБ 1), Чемоданчик, Рецептурные бланки, Ручка (шприц с ядом)",
     ],
     potraits: {
-        male: ["SFCP 1 01", "SFCP 1 03", "SFCP 1 04", "SFCP 1 05", "SFCP 1 07", "SFCP 1 09", "SFCP 1 10", "SFCP 1 11", "SFCP 1 12", "SFCP 1 13", "SFCP 1 15", "SFCP 1 17", "SFCP 1 19", "SFCP 1 20", "SFCP 1 21", "SFCP 1 22", "SFCP 1 23", "SFCP 1 25", "SFCP 1 26", "SFCP 1 27", "SFCP 1 29", "SFCP 1 31", "SFCP 1 32", "SFCP 1 33", "SFCP 1 35", "SFCP 1 36", "SFCP 1 37", "SFCP 1 40", "SFCP 1 41", "SFCP 1 43", "SFCP 1 45", "SFCP 1 47", "SFCP 1 48", "SFCP 1 49", "SFCP 1 51", "SFCP 1 53", "SFCP 1 55", "SFCP 1 57", "SFCP 1 58", "SFCP 1 59", "SFCP 1 61", "SFCP 1 63", "SFCP 1 64", "SFCP 1 65", "SFCP 1 67", "SFCP 1 68", "SFCP 1 69", "SFCP 1 71", "SFCP 1 74", "SFCP 1 75", "SFCP 1 77", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 81", "SFCP 1 83", "SFCP 1 84", "SFCP 1 85", "SFCP 1 87", "SFCP 1 89", "SFCP 1 90", "SFCP 1 91", "SFCP 1 93", "SFCP 1 94", "SFCP 1 95", "SFCP 1 97", "SFCP 1 98", "SFCP 1 99", "SFCP 1-101", "SFCP 1-103", "SFCP 1-105", "SFCP 1-106", "SFCP 1-107", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-115", "SFCP 1-116", "SFCP 1-119"],
-        female: ["SFCP 1 65", "SFCP 1 67", "SFCP 1 68", "SFCP 1 69", "SFCP 1 71", "SFCP 1 74", "SFCP 1 75", "SFCP 1 77", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 81", "SFCP 1 83", "SFCP 1 84", "SFCP 1 85", "SFCP 1 87", "SFCP 1 89", "SFCP 1 90", "SFCP 1 91", "SFCP 1 93", "SFCP 1 94", "SFCP 1 95", "SFCP 1 97", "SFCP 1 98", "SFCP 1 99", "SFCP 1-101", "SFCP 1-103", "SFCP 1-105", "SFCP 1-106", "SFCP 1-107", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-115", "SFCP 1-116", "SFCP 1-119"]
+        male: ["SFCP 1 01", "SFCP 1 03", "SFCP 1 04", "SFCP 1 05", "SFCP 1 06", "SFCP 1 07", "SFCP 1 08", "SFCP 1 09", "SFCP 1 11", "SFCP 1 12", "SFCP 1 13", "SFCP 1 14", "SFCP 1 15", "SFCP 1 17", "SFCP 1 18", "SFCP 1 19", "SFCP 1 20", "SFCP 1 21", "SFCP 1 22", "SFCP 1 23", "SFCP 1 24", "SFCP 1 25", "SFCP 1 27", "SFCP 1 28", "SFCP 1 29", "SFCP 1 30", "SFCP 1 31", "SFCP 1 32", "SFCP 1 33", "SFCP 1 34", "SFCP 1 35", "SFCP 1 36", "SFCP 1 37", "SFCP 1 39", "SFCP 1 40", "SFCP 1 41", "SFCP 1 42", "SFCP 1 43", "SFCP 1 44", "SFCP 1 47", "SFCP 1 48", "SFCP 1 49", "SFCP 1 50", "SFCP 1 51", "SFCP 1 52", "SFCP 1 53", "SFCP 1 54", "SFCP 1 55", "SFCP 1 57", "SFCP 1 58", "SFCP 1 59", "SFCP 1 61", "SFCP 1 62", "SFCP 1 63", "SFCP 1 64", "SFCP 1 65", "SFCP 1 66", "SFCP 1 67", "SFCP 1 68", "SFCP 1 69", "SFCP 1 71", "SFCP 1 73", "SFCP 1 74", "SFCP 1 75", "SFCP 1 77", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 81", "SFCP 1 82", "SFCP 1 83", "SFCP 1 84", "SFCP 1 85", "SFCP 1 87", "SFCP 1 88", "SFCP 1 89", "SFCP 1 90", "SFCP 1 91", "SFCP 1 92", "SFCP 1 93", "SFCP 1 94", "SFCP 1 95", "SFCP 1 96", "SFCP 1 97", "SFCP 1 98", "SFCP 1 99", "SFCP 1-101", "SFCP 1-102", "SFCP 1-103", "SFCP 1-104", "SFCP 1-105", "SFCP 1-106", "SFCP 1-107", "SFCP 1-108", "SFCP 1-109", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-114", "SFCP 1-115", "SFCP 1-116", "SFCP 1-117", "SFCP 1-118", "SFCP 1-119", "SFCP 1-120"],
+        female: ["SFCP 1 01", "SFCP 1 02", "SFCP 1 06", "SFCP 1 08", "SFCP 1 100", "SFCP 1 14", "SFCP 1 15", "SFCP 1 16", "SFCP 1 18", "SFCP 1 22", "SFCP 1 24", "SFCP 1 28", "SFCP 1 33", "SFCP 1 34", "SFCP 1 38", "SFCP 1 42", "SFCP 1 44", "SFCP 1 46", "SFCP 1 50", "SFCP 1 52", "SFCP 1 54", "SFCP 1 56", "SFCP 1 57", "SFCP 1 58", "SFCP 1 60", "SFCP 1 62", "SFCP 1 66", "SFCP 1 70", "SFCP 1 72", "SFCP 1 73", "SFCP 1 74", "SFCP 1 76", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 82", "SFCP 1 85", "SFCP 1 86", "SFCP 1 88", "SFCP 1 91", "SFCP 1 92", "SFCP 1 96", "SFCP 1-101", "SFCP 1-104", "SFCP 1-106", "SFCP 1-108", "SFCP 1-109", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-114", "SFCP 1-115", "SFCP 1-117", "SFCP 1-118", "SFCP 1-119", "SFCP 1-120"]
     }
 }
 const teamster = {
@@ -284,8 +284,8 @@ const teamster = {
         "Домашняя одежда (ПБ 1), Монтировка, Стимулятор, Ящик пива",
     ],
     potraits: {
-        male: ["SFCP 1 01", "SFCP 1 03", "SFCP 1 04", "SFCP 1 05", "SFCP 1 07", "SFCP 1 09", "SFCP 1 10", "SFCP 1 11", "SFCP 1 12", "SFCP 1 13", "SFCP 1 15", "SFCP 1 17", "SFCP 1 19", "SFCP 1 20", "SFCP 1 21", "SFCP 1 22", "SFCP 1 23", "SFCP 1 25", "SFCP 1 26", "SFCP 1 27", "SFCP 1 29", "SFCP 1 31", "SFCP 1 32", "SFCP 1 33", "SFCP 1 35", "SFCP 1 36", "SFCP 1 37", "SFCP 1 40", "SFCP 1 41", "SFCP 1 43", "SFCP 1 45", "SFCP 1 47", "SFCP 1 48", "SFCP 1 49", "SFCP 1 51", "SFCP 1 53", "SFCP 1 55", "SFCP 1 57", "SFCP 1 58", "SFCP 1 59", "SFCP 1 61", "SFCP 1 63", "SFCP 1 64", "SFCP 1 65", "SFCP 1 67", "SFCP 1 68", "SFCP 1 69", "SFCP 1 71", "SFCP 1 74", "SFCP 1 75", "SFCP 1 77", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 81", "SFCP 1 83", "SFCP 1 84", "SFCP 1 85", "SFCP 1 87", "SFCP 1 89", "SFCP 1 90", "SFCP 1 91", "SFCP 1 93", "SFCP 1 94", "SFCP 1 95", "SFCP 1 97", "SFCP 1 98", "SFCP 1 99", "SFCP 1-101", "SFCP 1-103", "SFCP 1-105", "SFCP 1-106", "SFCP 1-107", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-115", "SFCP 1-116", "SFCP 1-119"],
-        female: ["SFCP 1 65", "SFCP 1 67", "SFCP 1 68", "SFCP 1 69", "SFCP 1 71", "SFCP 1 74", "SFCP 1 75", "SFCP 1 77", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 81", "SFCP 1 83", "SFCP 1 84", "SFCP 1 85", "SFCP 1 87", "SFCP 1 89", "SFCP 1 90", "SFCP 1 91", "SFCP 1 93", "SFCP 1 94", "SFCP 1 95", "SFCP 1 97", "SFCP 1 98", "SFCP 1 99", "SFCP 1-101", "SFCP 1-103", "SFCP 1-105", "SFCP 1-106", "SFCP 1-107", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-115", "SFCP 1-116", "SFCP 1-119"]
+        male: ["SFCP 1 01", "SFCP 1 03", "SFCP 1 04", "SFCP 1 05", "SFCP 1 06", "SFCP 1 07", "SFCP 1 08", "SFCP 1 09", "SFCP 1 11", "SFCP 1 12", "SFCP 1 13", "SFCP 1 14", "SFCP 1 15", "SFCP 1 17", "SFCP 1 18", "SFCP 1 19", "SFCP 1 20", "SFCP 1 21", "SFCP 1 22", "SFCP 1 23", "SFCP 1 24", "SFCP 1 25", "SFCP 1 27", "SFCP 1 28", "SFCP 1 29", "SFCP 1 30", "SFCP 1 31", "SFCP 1 32", "SFCP 1 33", "SFCP 1 34", "SFCP 1 35", "SFCP 1 36", "SFCP 1 37", "SFCP 1 39", "SFCP 1 40", "SFCP 1 41", "SFCP 1 42", "SFCP 1 43", "SFCP 1 44", "SFCP 1 47", "SFCP 1 48", "SFCP 1 49", "SFCP 1 50", "SFCP 1 51", "SFCP 1 52", "SFCP 1 53", "SFCP 1 54", "SFCP 1 55", "SFCP 1 57", "SFCP 1 58", "SFCP 1 59", "SFCP 1 61", "SFCP 1 62", "SFCP 1 63", "SFCP 1 64", "SFCP 1 65", "SFCP 1 66", "SFCP 1 67", "SFCP 1 68", "SFCP 1 69", "SFCP 1 71", "SFCP 1 73", "SFCP 1 74", "SFCP 1 75", "SFCP 1 77", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 81", "SFCP 1 82", "SFCP 1 83", "SFCP 1 84", "SFCP 1 85", "SFCP 1 87", "SFCP 1 88", "SFCP 1 89", "SFCP 1 90", "SFCP 1 91", "SFCP 1 92", "SFCP 1 93", "SFCP 1 94", "SFCP 1 95", "SFCP 1 96", "SFCP 1 97", "SFCP 1 98", "SFCP 1 99", "SFCP 1-101", "SFCP 1-102", "SFCP 1-103", "SFCP 1-104", "SFCP 1-105", "SFCP 1-106", "SFCP 1-107", "SFCP 1-108", "SFCP 1-109", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-114", "SFCP 1-115", "SFCP 1-116", "SFCP 1-117", "SFCP 1-118", "SFCP 1-119", "SFCP 1-120"],
+        female: ["SFCP 1 01", "SFCP 1 02", "SFCP 1 06", "SFCP 1 08", "SFCP 1 100", "SFCP 1 14", "SFCP 1 15", "SFCP 1 16", "SFCP 1 18", "SFCP 1 22", "SFCP 1 24", "SFCP 1 28", "SFCP 1 33", "SFCP 1 34", "SFCP 1 38", "SFCP 1 42", "SFCP 1 44", "SFCP 1 46", "SFCP 1 50", "SFCP 1 52", "SFCP 1 54", "SFCP 1 56", "SFCP 1 57", "SFCP 1 58", "SFCP 1 60", "SFCP 1 62", "SFCP 1 66", "SFCP 1 70", "SFCP 1 72", "SFCP 1 73", "SFCP 1 74", "SFCP 1 76", "SFCP 1 78", "SFCP 1 79", "SFCP 1 80", "SFCP 1 82", "SFCP 1 85", "SFCP 1 86", "SFCP 1 88", "SFCP 1 91", "SFCP 1 92", "SFCP 1 96", "SFCP 1-101", "SFCP 1-104", "SFCP 1-106", "SFCP 1-108", "SFCP 1-109", "SFCP 1-110", "SFCP 1-111", "SFCP 1-112", "SFCP 1-113", "SFCP 1-114", "SFCP 1-115", "SFCP 1-117", "SFCP 1-118", "SFCP 1-119", "SFCP 1-120"]
     }
 }      
 
@@ -383,9 +383,9 @@ const surnames = {
         "Пхё", "Хо", "Ку", "На", "Чжин", "Бён", "Ю", "Мин", "Чхэ", "Ха",
         "Сок", "Чхун", "Чжин", "Ё", "Чжон", "Хван", "Тэ", "Юк", "Сонг", "Чжин",
         "Сато", "Судзуки", "Такахаcи", "Танака", "Ватанабэ", "Ито", "Ямамото", "Накамура", "Кобаяси", "Като",
-        "Ёсида", "Ямада", "Сайто", "Мацуmото", "Иноуэ", "Кимура", "Хаяси", "Симизу", "Ямагучи", "Мори",
+        "Ёсида", "Ямада", "Сайто", "Мацумото", "Иноуэ", "Кимура", "Хаяси", "Симизу", "Ямагучи", "Мори",
         "Абэ", "Икэда", "Хасимото", "Ямасита", "Исикава", "Накагава", "Огава", "Исии", "Хирано", "Кудо",
-        "Мацуda", "Фудзи", "Окада", "Эндо", "Аоки", "Сакамото", "Фукуда", "Ота", "Морита", "Уэда",
+        "Мацудa", "Фудзи", "Окада", "Эндо", "Аоки", "Сакамото", "Фукуда", "Ота", "Морита", "Уэда",
         "Сэки", "Такада", "Накаяма", "Вада", "Хара", "Синдо", "Тэрада", "Тиба", "Кодзима", "Номура"
     ],
     female: [
@@ -415,9 +415,9 @@ const surnames = {
         "Пхё", "Хо", "Ку", "На", "Чжин", "Бён", "Ю", "Мин", "Чхэ", "Ха",
         "Сок", "Чхун", "Чжин", "Ё", "Чжон", "Хван", "Тэ", "Юк", "Сонг", "Чжин",
         "Сато", "Судзуки", "Такахаcи", "Танака", "Ватанабэ", "Ито", "Ямамото", "Накамура", "Кобаяси", "Като",
-        "Ёсида", "Ямада", "Сайто", "Мацуmото", "Иноуэ", "Кимура", "Хаяси", "Симизу", "Ямагучи", "Мори",
+        "Ёсида", "Ямада", "Сайто", "Мацумото", "Иноуэ", "Кимура", "Хаяси", "Симизу", "Ямагучи", "Мори",
         "Абэ", "Икэда", "Хасимото", "Ямасита", "Исикава", "Накагава", "Огава", "Исии", "Хирано", "Кудо",
-        "Мацуda", "Фудзи", "Окада", "Эндо", "Аоки", "Сакамото", "Фукуда", "Ота", "Морита", "Уэда",
+        "Мацудa", "Фудзи", "Окада", "Эндо", "Аоки", "Сакамото", "Фукуда", "Ота", "Морита", "Уэда",
         "Сэки", "Такада", "Накаяма", "Вада", "Хара", "Синдо", "Тэрада", "Тиба", "Кодзима", "Номура"
     ] 
 }
@@ -628,7 +628,22 @@ const trinkets = [
     "Межзвездный компас, указывает на родную планету"
 ]
 
-function generateCharacter() {
+let currentSeed;
+
+function generateCharacter(seed = null) {
+
+    console.log(seed)
+
+        if (seed !== null) {
+        currentSeed = seed;
+        console.log(seed)
+    } else {
+        currentSeed = Math.floor(Math.random() * 4294967296);
+        console.log(currentSeed)
+        updateUrl(currentSeed);
+    }
+
+    console.log(currentSeed)
 
     const gender = getRandomElements(genders, 1)[0];
     const name = getRandomElements(names[gender], 1);
@@ -669,7 +684,7 @@ function generateCharacter() {
     const credits = getRandomInt(2, 20) * 10;
 
     document.getElementById("name").textContent = fullname;
-    document.getElementById('portrait').src = `images/portraits/${portrait}.png`;
+    document.getElementById('portrait').src = `/images/portraits/${portrait}.png`;
     document.getElementById("class").textContent = characterClass[0].name;
     document.getElementById("strength").textContent = strength;
     document.getElementById("speed").textContent = speed;
@@ -687,21 +702,75 @@ function generateCharacter() {
     document.getElementById("trinket").textContent = trinket;
     document.getElementById("loadout").textContent = loadout;
     document.getElementById("credits").textContent = credits;
+
+
+    // if (seed === null) {
+    //     console.log(currentSeed)
+    //     updateUrl(currentSeed);
+    // }
 }
 
+// function getRandomInt(min, max) {
+//     return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+
+// function getRandomElements(arr, count) {
+//     const copyArr = [...arr];
+    
+//     const result = [];
+
+//     for (let i = 0; i < count; i++) {
+//         const randomIndex = Math.floor(Math.random() * copyArr.length);
+//         result.push(copyArr[randomIndex]);
+//         copyArr.splice(randomIndex, 1);
+//     }
+//     return result;
+// }
+
+// Глобальная переменная для seed
+
+// Генератор псевдослучайных чисел на основе seed
+function seededRandom() {
+    currentSeed = (currentSeed * 1664525 + 1013904223) % 4294967296;
+    return currentSeed / 4294967296;
+}
+
+// Обновленные функции для работы с seed
 function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+    return Math.floor(seededRandom() * (max - min + 1)) + min;
 }
 
 function getRandomElements(arr, count) {
     const copyArr = [...arr];
-    
     const result = [];
-
     for (let i = 0; i < count; i++) {
-        const randomIndex = Math.floor(Math.random() * copyArr.length);
+        const randomIndex = Math.floor(seededRandom() * copyArr.length);
         result.push(copyArr[randomIndex]);
         copyArr.splice(randomIndex, 1);
     }
     return result;
 }
+
+// Основная функция генерации
+
+
+// Обновление URL с параметром seed
+function updateUrl(seed) {
+    const newUrl = window.location.origin + window.location.pathname + '?id=' + seed;
+    window.history.pushState({}, '', newUrl);
+}
+
+// Проверка seed при загрузке страницы
+window.onload = function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const seedParam = urlParams.get('id');
+
+    
+    if (seedParam) {
+        generateCharacter(Number(seedParam));
+        // console.log(seedParam)
+    } else {
+        generateCharacter();
+        // console.log("blank")
+    }
+};

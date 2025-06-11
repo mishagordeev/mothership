@@ -22,7 +22,7 @@
         }
 
         .portrait {
-            height: 242px; 
+            /* height: 242px;  */
             width: 180px;
             object-position: bottom;
         }
@@ -30,6 +30,7 @@
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
+            grid-area: stats-container;
         }
         .border-container {
             margin-bottom: 10px;
@@ -46,17 +47,17 @@
         }
 
         .left-block {
-            display: flex;
-            flex-direction: row;
-            gap: 15px;
+            display: grid;
+            gap: 16px;
         }
 
         .common-info {
             display: flex;
             flex-direction: column;
             justify-content: flex-end; 
-            width: 100%;  
-            row-gap: 20px;        
+            /* width: 100%;   */
+            /* row-gap: 20px;  */
+            grid-area: common-info;       
         }
 
         .right-block {
@@ -84,49 +85,78 @@
         .generate-button:hover {
         background-color: #333; 
         }
+
+        .portrait-placeholder {
+            grid-area: portrait-placeholder;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end; 
+        }
+
+        .left-block {
+            grid-template-columns: auto 1fr;
+            grid-template-areas: 
+                "portrait-placeholder common-info"
+                "portrait-placeholder stats-container";
+        }
+
+        @media (max-width: 767px) {
+            .left-block {
+                grid-template-columns: auto 1fr;
+                grid-template-areas: 
+                    "portrait-placeholder common-info"
+                    "stats-container stats-container";
+            }
+
+            .portrait {
+                width: 120px;
+                height: 162px;
+            }
+
+            .generate-button {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
     <script src='/scripts/header.js'></script> 
+    <script src='/scripts/side_nav_contractors.js'></script>
     <main id="wrapper">
         <script src='/scripts/menu.js'></script>
         <article id="root">
             <h1>Генератор персонажа</h1>
             <div class="container">
                 <div class="left-block border-container">
-                    <div>
+                    <div class="portrait-placeholder">
                         <img class="portrait" id="portrait">
                     </div>
                     <div class="common-info">
-                        <div>
-                            <div class="section"><span class="bold">Имя</span><br><span id="name">-</span></div>
-                            <div class="section"><span class="bold">Класс</span><br><span id="class">-</span></div>
-                            <button id="generate-character-button" class="generate-button">Сгенерировать</button>
-                        </div>
-                        <div class="stats-container">
-                                
-                                <div class="stat-box"><span class="bold">Сила</span><br><span id="strength">-</span></div>
-                                <div class="stat-box"><span class="bold">Скорость</span><br><span id="speed">-</span></div>
-                                <div class="stat-box"><span class="bold">Интеллект</span><br><span id="intellect">-</span></div>
-                                <div class="stat-box"><span class="bold">Бой</span><br><span id="combat">-</span></div>
-                                
-                                <div class="stat-box"><span class="bold">Рассудок</span><br><span id="sanity">-</span></div>
-                                <div class="stat-box"><span class="bold">Страх</span><br><span id="fear">-</span></div>
-                                <div class="stat-box"><span class="bold">Тело</span><br><span id="body">-</span></div>
-                                <div class="stat-box"></div>
-                        </div>
+                        <div class="section"><span class="bold">Имя</span><br><span id="name">-</span></div>
+                        <div class="section"><span class="bold">Класс</span><br><span id="class">-</span></div>
+                        <button id="generate-character-button" class="generate-button">Сгенерировать</button>
                     </div>
+                    <div class="stats-container">
+                        <div class="stat-box"><span class="bold">Сила</span><br><span id="strength">-</span></div>
+                        <div class="stat-box"><span class="bold">Скорость</span><br><span id="speed">-</span></div>
+                        <div class="stat-box"><span class="bold">Интеллект</span><br><span id="intellect">-</span></div>
+                        <div class="stat-box"><span class="bold">Бой</span><br><span id="combat">-</span></div>
 
+                        <div class="stat-box"><span class="bold">Рассудок</span><br><span id="sanity">-</span></div>
+                        <div class="stat-box"><span class="bold">Страх</span><br><span id="fear">-</span></div>
+                        <div class="stat-box"><span class="bold">Тело</span><br><span id="body">-</span></div>
+                        <div class="stat-box"></div>
+                    </div>
                 </div>
                 <script>
                     document.addEventListener("DOMContentLoaded", function() {
                         document.getElementById("generate-character-button").addEventListener("click", function() {
-                        gtag("event", "button_click", {
-                            button_name: "generate-character",
-                            page_location: window.location.href
-                        });
-                        console.log("generate click")
-                        generateCharacter()
+                            gtag("event", "button_click", {
+                                button_name: "generate-character",
+                                page_location: window.location.href
+                            });
+                            console.log("generate click")
+                            generateCharacter()
                         });
                     });
                 </script>
@@ -154,9 +184,13 @@
                 </div>
 
             </div>
+            <br>
+            <div>
+                <a class="mobile" href="/generators/navigation.html">Генераторы</a>
+            </div>
         </article>
     </main>
     <script>showFooter()</script>
-    <script>generateCharacter()</script>
+    <!-- <script>generateCharacter()</script> -->
 </body>
 </html>
