@@ -40,7 +40,7 @@ const android = {
     modificators: {
         intellect: 20,
         fear: 60,
-        wounds_modificator: 1,
+        wounds: 1,
         
     },
     random_modificators: {
