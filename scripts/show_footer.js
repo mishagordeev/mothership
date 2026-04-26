@@ -4,7 +4,7 @@ function showFooter() {
         <div>
             <div>
                 <p>
-                    © 2021-2025 Mothershiprpg.ru
+                    © 2021-2026 Mothershiprpg.ru
                 </p>
                 <div style="font-size: 0.6rem">
                     <br>
